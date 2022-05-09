@@ -1,0 +1,15 @@
+.bgimage{
+    background-image: url('../assets/shannon.png');
+    height: 80%;
+    margin-top: -10px;
+    padding-bottom: 40px;
+}
+.text{
+    color: white;
+    display: flex;
+    /*center For  vertically*/
+    justify-content: center;
+    flex-direction: column;
+    /*center for horizontally*/
+    align-items: center;
+}

@@ -1,0 +1,31 @@
+.content{
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.img{
+    position: relative;
+    float: right;
+    margin-top: -40px;
+}
+.text{
+    /* position: absolute; */
+    text-align: center;
+}
+/* .Program{
+    position: absolute;
+    text-align: end;
+} */
+.group37{
+    text-align: end;
+}
+.footer{
+    margin-top: 50px;
+}
+.topography{
+    position: relative;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.Rectangle{
+    margin-top: -20px;
+}

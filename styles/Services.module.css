@@ -1,0 +1,16 @@
+.bg {
+    background-image: url('../assets/Services.png');
+}
+
+/* .Group48{
+    float: right;
+} */
+
+.content {
+    margin-top: 50px;
+}
+
+.text {
+    color: white;
+    font-size: small;
+}

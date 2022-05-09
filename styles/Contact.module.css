@@ -1,0 +1,13 @@
+.btn{
+    width: 100%;
+}
+.text{
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* .content{
+    margin-left: 50px;
+} */
+.footer{
+    display: block !important;
+}
