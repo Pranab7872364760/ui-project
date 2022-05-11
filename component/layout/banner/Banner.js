@@ -1,13 +1,13 @@
-import Image from "next/image"
+import Image from "next/image";
 import group32 from '../../../assets/Group 32.png';
 import LOGO from '../../../assets/LOGO.png';
 import telecope from '../../../assets/telecope hydra.png';
 import styles from '../../../styles/Banner.module.css';
 import AngelBook from '../../../assets/AngelBook.png';
 import Group35 from '../../../assets/Group 35.png';
-import flowerPrayWoman from '../../../assets/flowerPrayWoman.png';
+import FlowerPrayWoman from '../../../assets/FlowerPrayWoman.png';
 import Woman from '../../../assets/flowerpraylayer.png';
-import fly from '../../../assets/fly.png';
+import Fly from '../../../assets/fly.png';
 
 export default function Home() {
     return (
@@ -21,7 +21,7 @@ export default function Home() {
                 <div className={["col-md-6 col-sm-6 col-8", styles.logo].join(' ')}>
                     <span className={styles.fly}>
                         <Image
-                            src={fly}
+                            src={Fly}
                             alt="fly"
                         />
                     </span>
@@ -61,7 +61,7 @@ export default function Home() {
                         </div>
                         <div className={["col-md-6 col-sm-6 col-6", styles.flowerPray].join(' ')}>
                             <Image
-                                src={flowerPrayWoman}
+                                src={FlowerPrayWoman}
                                 alt='flowerPrayWoman'
                             />
                         </div>

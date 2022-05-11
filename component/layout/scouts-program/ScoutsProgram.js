@@ -4,12 +4,13 @@ import Group37 from '../../../assets/Group 37.png';
 import Program2 from '../../../assets/Program2.png';
 import numberimg from '../../../assets/numberimg.png';
 import Rectangle3 from '../../../assets/Rectangle (3).png';
-import Rectangle1 from '../../../assets/Rectangle-1.png';
-import Rectangle2 from '../../../assets/Rectangle.png';
+// import Rectangle1 from '../../../assets/Rectangleab.png';
+// import Rectangle2 from '../../../assets/Rectangle.png';
 import Topography from '../../../assets/topography.png';
 import Moshed from '../../../assets/moshed.png';
 
 
+// const img = require('../../../public/Rectangle1.png');
 
 function ScoutsProgram() {
     return (
@@ -67,16 +68,16 @@ function ScoutsProgram() {
                 </span>
             </div>
             <div className={['row', styles.Rectangle].join(' ')}>
-                <Image
-                    src={Rectangle1}
-                    alt="Rectangle1"
+                <img
+                    src='Rectangle1.png'
+                    alt='Rectangle2'
                 />
                 <Image
                     src={Rectangle3}
                     alt="Rectangle3"
                 />
-                <Image
-                    src={Rectangle2}
+                <img
+                    src='Rectangle.png'
                     alt="Rectangle2"
                 />
             </div>

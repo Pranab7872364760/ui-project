@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import Head from 'next/head';
 import Layout from '../component/layout/Layout';
 import Script from 'next/script';
 
