@@ -1,9 +1,11 @@
 .bg {
+    padding-top: 30px;
     background-image: url('../assets/Services.png');
+    padding-bottom: 60px;
 }
 
 /* .Group48{
-    float: right;
+    margin-top: -40px;
 } */
 
 .content {
@@ -13,4 +15,8 @@
 .text {
     color: white;
     font-size: small;
+};
+.h1{
+    font-size: xx-large !important;
+    color: white;
 }

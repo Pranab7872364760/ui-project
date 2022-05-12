@@ -24,9 +24,9 @@ return (
             </button>
             <div className='collapse navbar-collapse'>
                 <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a className="nav-link" href="#banner">Banner</a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <a className="nav-link" href="#projects">Projects</a>
                     </li>
@@ -47,9 +47,9 @@ return (
         </nav >
         <div className={styles.sidenav} id='mySidenav'>
             <a href="#" className={styles.closebtn} onClick={closeNav}>&times;</a>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <a className="nav-link text-white" href="#banner">Banner</a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                     <a className="nav-link text-white" href="#projects">Projects</a>
                 </li>

@@ -5,3 +5,22 @@
     border: 1px solid red;
 
 } */
+.tab-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; float:left;
+    width: 100%; margin:0px 0px 20px 0px;
+}
+
+.tab-list li {
+    float: left;
+    width: 16.6%;
+    min-height: 100px;
+}
+
+.tabImageWrap {
+    height: 47px;
+    overflow: hidden;
+    display: inline-block;
+}
+.tab-list li a{ margin:0px !important;   cursor: pointer;   padding: 10px 10px !important;}

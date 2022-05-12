@@ -4,8 +4,8 @@ import Group48 from '../../../assets/Group 48.png';
 
 function Services() {
     return (
-        <div id='service' className={styles.bg}>
-            <span className='text-center text-white'><h1>Service</h1></span>
+        <div id='services' className={styles.bg}>
+            <h1 className="text-center text-white mt-5" style={{fontSize:'10ch'}}>Services</h1>
             <div className='row'>
                 <div className='col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3'></div>
                 <div className='col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6'>
@@ -35,15 +35,13 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div className='col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3'>
-                    <span className={styles.Group48}>
+                <div className='col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3' style={{marginTop:'-50px'}}>
                         <Image
                             src={Group48}
                             alt="group"
-                            width={300}
-                            height={400}
+                            width={200}
+                            height={300}
                         />
-                    </span>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import '../styles/responsive.css'
 import Layout from '../component/layout/Layout';
 import Script from 'next/script';
 

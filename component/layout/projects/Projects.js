@@ -11,14 +11,12 @@ import Batterfly from '../../../assets/battlefly.png';
 export default function Home() {
     return (
         <div id='projects' className={styles.bgimage}>
-            <div className={styles.text}>
-                <h1 className='mt-5'>Project</h1>
-            </div>
+                <h1 style={{fontSize:'10ch', textAlign: 'center', color:'white', paddingTop:'50px'}} >PROJECTS</h1>
             <div className='row'>
                 <div className='col-md-3'>
                 </div>
                 <div className='col-md-6'>
-                    <div className='row'>
+                    <div className='row mt-5'>
                         <div className='col-md-2 text-center'></div>
                         <div className='col-md-2 text-center'>
                             <Image

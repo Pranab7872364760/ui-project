@@ -16,39 +16,72 @@ function ScoutsProgram() {
     return (
         <div id='scoutsprogram' className={styles.content}>
             <div className='row'>
-                <div className={['col-md-3 col-sm-2 col-2', styles.group37].join(' ')}>
+                <div className='col-md-4 col-sm-3 col-3' style={{textAlign: 'end', marginTop:'100px'}}>
                     <Image
                         src={Group37}
                         alt="group"
-                        width={250}
-                        height={300}
+                        width={300}
+                        height={500}
                     />
                 </div>
-                <div className={['col-md-6 col-sm-8 col-8', styles.text].join(' ')}>
-                    <span>
-                        <Image
-                            src={Moshed}
-                            alt="Moshed"
-                        />
-                    </span>
-                    <h1 className='mb-5'>Scouts Program</h1>
-                    <span>
-                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
-                        Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
-                        cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una
-                        galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
-                        No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos,
-                        quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset",
-                        las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición,
-                        como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
-                    </span>
+                <div className='col-md-4 col-sm-6 col-6'>
+                    <div style={{ textAlign: 'center' }}>
+                        <span>
+                            <Image
+                                src={Moshed}
+                                alt="Moshed"
+                            />
+                        </span>
+                    </div>
+                    <h1 className='mb-5' style={{ fontSize: '10ch', textAlign: 'center' }}>Scouts Program</h1>
+                    <div className='container'>
+                        <span>
+                            <h4>
+                                The Scouts Program was created to enable exceptional individuals to
+                                become part of the Information Token community without holding an
+                                information token for ongoing contributions to the DAO
+                            </h4>
+                        </span>
+                        <span>
+                            <h3>Benefits</h3>
+                            <ul className={styles.li}>
+                                <li>
+                                    <h4>
+                                        Full access to our private discord and community membership,
+                                        including alpha and access to pooled trading or investment opportunities
+                                    </h4>
+                                </li>
+                                <li>
+                                    <h4>
+                                        Allocation in seed investments
+                                    </h4>
+                                </li>
+                                <li>
+                                    <h4>
+                                        Compensation from revenue-producing projects
+                                    </h4>
+                                </li>
+                                <li>
+                                    <h4>
+                                        Current scouts contribute in many areas, including deal flow.
+                                        consulting expertise, development. fund management. marketing, and other areas.
+                                    </h4>
+                                </li>
+                            </ul>
+                            <h3>
+                                Scouts season 2 is now open for new applicants. Please apply
+
+                                here.
+                            </h3>
+                        </span>
+                    </div>
                 </div>
-                <div className={['col-md-3 col-sm-2 col-2', styles.Program].join(' ')}>
+                <div className='col-md-4 col-sm-3 col-3' style={{marginTop:'100px'}}>
                     <Image
                         src={Program2}
                         alt="program"
-                        width={250}
-                        height={300}
+                        width={300}
+                        height={500}
                     />
                 </div>
             </div>
@@ -71,14 +104,17 @@ function ScoutsProgram() {
                 <img
                     src='Rectangle1.png'
                     alt='Rectangle2'
+                    height={50}
                 />
                 <Image
                     src={Rectangle3}
                     alt="Rectangle3"
+                    height={150}
                 />
                 <img
                     src='Rectangle.png'
                     alt="Rectangle2"
+                    height={50}
                 />
             </div>
         </div>

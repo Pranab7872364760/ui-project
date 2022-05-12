@@ -55,8 +55,8 @@
 /* } */
 .tabs {
     border-radius: 5px;
-    padding: 10px 30px;
-    background-color: black;
+    padding: 10px 20px;
+    background-color: rgba(21, 19, 19, 0.8);
     color: white !important;
 }
 
@@ -69,4 +69,28 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+.head {
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.tablist {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+}
+
+.tablist li {
+    float: left;
+    width: 16.6%;
+    min-height: 100px;
+}
+
+.tabImageWrap {
+    height: 70px;
+    overflow: hidden;
+    display: inline-block;
 }

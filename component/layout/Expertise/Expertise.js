@@ -10,83 +10,100 @@ import image20 from '../../../assets/image 20.png';
 
 function Expertise() {
 
-const [value,setValue]=React.useState('#1a')
+    const [value, setValue] = React.useState('#1a')
 
-function getId(data){
-    setValue(data)
-    console.log(data)
-}
+    function getId(data) {
+        setValue(data)
+        console.log(data)
+    }
 
     return (
-        <div id='expertise' className='pb-5'>
+        <div id='expertise' className={styles.head}>
             <div className={styles.text}>
-                <h1>DeFi & NFT Expertise</h1>
+                <h1 style={{ fontSize: '10ch', textAlign: 'center' }}>DeFi & NFT Expertise</h1>
             </div>
             <div id="exTab1" className="container mt-5">
-                <ul className={["row", styles.content].join(' ')}>
-                    <li className="col-md-2 col-sm-4 col-6" onClick={()=>getId('#1a')}>
-                        <a style={{textDecoration: 'none', display:'block'}} id='1a' className={['text-center', value == '#1a' ? styles.tabs : ''].join(' ')}>
-                            <Image
-                                src={shell}
-                                alt='shell'
-                                height={70}
-                                className="img-fluid"
-                            />
-                            <p className='text-center'>Strategy</p>
+                <ul className="tab-list">
+                    <li onClick={() => getId('#1a')}>
+                        <a style={{ textDecoration: 'none', display: 'block', cursor: 'pointer' }} id='1a' className={['text-center', value == '#1a' ? styles.tabs : ''].join(' ')}>
+                            <span className="tabImageWrap">
+                                <Image
+                                    src={shell}
+                                    alt='shell'
+                                    height={40}
+                                />
+                            </span>
+                            <h3 className='text-center'>Strategy</h3>
+
                         </a>
                     </li>
-                    <li className="col-md-2 col-sm-4 col-6" onClick={()=>getId('#2a')}>
-                        <a href="#2a" style={{textDecoration: 'none', display:'block', color:'black'}} id='2a' className={['text-center', value == '#2a' ? styles.tabs : ''].join(' ')}>
-                        <Image
-                            src={image16}
-                            alt='shell'
-                            height={70}
-                        />
-                        <p className='card-title text-center'>Marketing</p>
-                    </a>
+                    <li onClick={() => getId('#2a')}>
+                        <a style={{ textDecoration: 'none', display: 'block', color: 'black' }} id='2a' className={['text-center', value == '#2a' ? styles.tabs : ''].join(' ')}>
+                            <span className="tabImageWrap">
+                                <Image
+                                    src={image16}
+                                    alt='shell'
+                                    height={40}
+                                />
+                            </span>
+                            <h3 className='text-center'>Marketing</h3>
+
+                        </a>
                     </li>
-                    <li className="col-md-2 col-sm-4 col-6 " onClick={()=>getId('#3a')}>
-                        <a href="#3a" style={{textDecoration: 'none', display:'block', color:'black'}} id='3a' className={['text-center', value == '#3a' ? styles.tabs : ''].join(' ')}>
-                        <Image
-                            src={image17}
-                            alt='shell'
-                            height={70}
-                        />
-                        <p className='card-title text-center'>Marketing</p>
-                    </a>
+                    <li onClick={() => getId('#3a')}>
+                        <a style={{ textDecoration: 'none', display: 'block', color: 'black' }} id='3a' className={['text-center', value == '#3a' ? styles.tabs : ''].join(' ')}>
+                            <span className="tabImageWrap">
+                                <Image
+                                    src={image17}
+                                    alt='shell'
+                                    height={40}
+                                />
+                            </span>
+                            <h3 className='text-center'>Marketing</h3>
+
+                        </a>
                     </li>
-                    <li className="col-md-2 col-sm-4 col-6" onClick={()=>getId("#4a")}>
-                        <a href="#4a" style={{textDecoration: 'none', display:'block', color:'black'}} id='4a' className={['text-center', value == '#4a' ? styles.tabs : ''].join(' ')}>
-                        <Image
-                            src={image18}
-                            alt='shell'
-                            height={70}
-                        />
-                        <p className='card-title text-center'>Development</p>
-                    </a>
+                    <li onClick={() => getId("#4a")}>
+                        <a style={{ textDecoration: 'none', display: 'block', color: 'black' }} id='4a' className={['text-center', value == '#4a' ? styles.tabs : ''].join(' ')}>
+                            <span className="tabImageWrap">
+                                <Image
+                                    src={image18}
+                                    alt='shell'
+                                    height={40}
+                                />
+                            </span>
+                            <h3 className='text-center'>Development</h3>
+
+                        </a>
                     </li>
-                    <li className="col-md-2 col-sm-4 col-6" onClick={()=>getId('#5a')}>
-                        <a href="#5a" style={{textDecoration: 'none', display:'block', color:'black'}} id='5a' className={['text-center', value == '#5a' ? styles.tabs : ''].join(' ')}>
-                        <Image
-                            src={image19}
-                            alt='shell'
-                            height={70}
-                        />
-                        <p className='card-title text-center'>Go to Market</p>
-                    </a>
+                    <li onClick={() => getId('#5a')}>
+                        <a style={{ textDecoration: 'none', display: 'block', color: 'black' }} id='5a' className={['text-center', value == '#5a' ? styles.tabs : ''].join(' ')}>
+                            <span className="tabImageWrap">
+                                <Image
+                                    src={image19}
+                                    alt='shell'
+                                    height={40}
+                                />
+                            </span>
+                            <h3 className='text-center'>Go to Market</h3>
+
+                        </a>
                     </li>
-                    <li className="col-md-2 col-sm-4 col-6" onClick={()=>getId('#6a')}>
-                        <a href="#6a" style={{textDecoration: 'none', display:'block', color:'black'}} id='6a' className={['text-center', value == '#6a' ? styles.tabs : ''].join(' ')}>
-                        <Image
-                            src={image20}
-                            alt='shell'
-                            height={70}
-                        />
-                        <p className='card-title text-center'>Legal</p>
-                    </a>
+                    <li onClick={() => getId('#6a')}>
+                        <a style={{ textDecoration: 'none', display: 'block', color: 'black' }} id='6a' className={['text-center', value == '#6a' ? styles.tabs : ''].join(' ')}>
+                            <span className="tabImageWrap">
+                                <Image
+                                    src={image20}
+                                    alt='shell'
+                                    height={40}
+                                />
+                            </span>
+                            <h3 className='text-center'>Legal</h3>
+
+                        </a>
                     </li>
                 </ul>
-                <div className="tab-content clearfix">
+                <div className="tab-content mt-5">
                     <div className="tab-pane active" value="#1a">
                         <h4>ABANDON ALL HOPE YE WHO ENTER HERE is scrawled in blood red lettering
                             on the side of the Chemical Bank near the corner of Eleventh and First and is in print large

@@ -1,40 +1,64 @@
+import React, { useState } from "react";
 import Image from "next/image";
-import Group44 from '../../../assets/Group 44.png';
+import Moshed1 from '../../../assets/Moshed1.png';
 import styles from '../../../styles/Contact.module.css';
 import Moshed2 from '../../../assets/moshed2.png';
 import Infotoken from '../../../assets/INFOTOKEN.png';
+import { postForm } from '../../../pages/api/Api';
+
+
+const initialValue = { name: '', email: '', message: '' }
 
 
 function Contact() {
+
+    const [formValue, setFormValue] = useState(initialValue);
+
+    function handleChange(e) {
+        const name = e.target.name;
+        const value = e.target.value;
+        setFormValue({ ...formValue, [name]: value });
+    };
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        let data = { ...formValue };
+        await postForm(data)
+            .then((res) => {
+
+            })
+        console.log(data);
+    };
+
     return (
         <div className="container">
             <div id="contact" className="row mt-5">
-                <div className="col-md-3 col-sm-2 col-2">
-                    <span className={styles.content}>
-                        <Image
-                            src={Group44}
-                            alt='group'
-                            width={200}
-                            height={250}
-                        />
-                    </span>
+                <div className="col-md-4 col-sm-4 col-3" style={{textAlign:'end'}}>
+                    <Image
+                        src={Moshed1}
+                        alt='group'
+                        width={200}
+                        height={250}
+                    />
                 </div>
-                <div className="col-md-6 col-sm-8 col-8">
-                    <span className={styles.text}><h1>Contact US</h1></span>
-                    <div className="mb-3">
-                        <input type="email" className="form-control" placeholder="Your Name" />
-                    </div>
-                    <div className="mb-3">
-                        <input type="password" className="form-control" placeholder="Email" />
-                    </div>
-                    <div className="mb-3">
-                        <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
-                    </div>
-                    <div>
-                        <button type="submit" className={["btn btn-dark", styles.btn].join(' ')}>Send</button>
-                    </div>
+                <div className="col-md-4 col-sm-6 col-6">
+                    <h1 style={{ paddingBottom: '30px' }} >Contact US</h1>
+                    <form onSubmit={handleSubmit} style={{ height: '100%' }}>
+                        <div className="mb-3">
+                            <input type="name" name="name" className="form-control" value={formValue.name} onChange={handleChange} placeholder="Your Name" required />
+                        </div>
+                        <div className="mb-3">
+                            <input type="email" name="email" className="form-control" value={formValue.email} onChange={handleChange} placeholder="Your Email" required />
+                        </div>
+                        <div className="mb-3">
+                            <textarea className="form-control" name="message" id="message" value={formValue.message} onChange={handleChange} placeholder="Message" rows="5" required ></textarea>
+                        </div>
+                        <div className="mt-5">
+                            <button type="submit" className="btn btn-dark" style={{ width: '100%', height: '50px' }}>Send</button>
+                        </div>
+                    </form>
                 </div>
-                <div className="col-md-3 col-sm-2 col-2">
+                <div className="col-md-4 col-sm-4 col-3">
                     <Image
                         src={Moshed2}
                         alt='Moshed2'
