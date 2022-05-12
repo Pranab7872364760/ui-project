@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Moshed1 from '../../../assets/Moshed1.png';
 import styles from '../../../styles/Contact.module.css';
-import Moshed2 from '../../../assets/moshed2.png';
 import Infotoken from '../../../assets/INFOTOKEN.png';
 import { postForm } from '../../../pages/api/Api';
 
@@ -59,12 +58,11 @@ function Contact() {
                     </form>
                 </div>
                 <div className="col-md-4 col-sm-4 col-3">
-                    <Image
-                        src={Moshed2}
-                        alt='Moshed2'
-                        width={200}
-                        height={250}
-                    />
+                   <img 
+                    src="moshed2.png"
+                    alt="moshed2"
+                    height={200}
+                   />
                 </div>
             </div>
             <div className="text-center mt-5">
