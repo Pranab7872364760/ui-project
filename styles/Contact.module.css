@@ -11,3 +11,9 @@
 .footer{
     display: block !important;
 }
+.inputfield {
+    border: solid;
+}
+.image{
+    bottom: -28px;
+}

@@ -1,7 +1,131 @@
 @media only screen and (max-width: 600px) {
     .tab-list li {
-       
+
         width: 100%;
-     
     }
-  }
+
+    .group-image img {
+        width: 150px !important;
+        height: auto !important;
+        left: -15px;
+        ;
+    }
+
+    .telecop-image {
+        width: 150px !important;
+        height: auto !important;
+    }
+
+    .image-content {
+        width: 126px !important;
+        height: auto !important;
+        bottom: -8px;
+    }
+
+    .group35-image {
+        width: 150px !important;
+        height: auto !important;
+    }
+
+    .bannerwrap {
+        width: 100% !important;
+        padding-bottom: 200px;
+    }
+
+    .product-logo {
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+
+    }
+
+    .product-logo .pImageWrap {
+        width: 100%;
+        display: block;
+        padding: 0px 5px 10px 5px;
+
+    }
+
+    .service-img {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .service-img .position-inmobile {
+        position: absolute;
+        bottom: 100px;
+        right: 0px;
+    }
+
+    .service-content {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    .content {
+        position: relative;
+        right: 0px;
+        left: 0px;
+    }
+
+    .layout-img {
+        bottom: -24px;
+    }
+
+    .layout-img img {
+        width: 55px !important;
+    }
+
+    .woman-img {
+        width: 150px !important;
+        height: auto !important;
+    }
+
+    .flowerPrayWoman-img {
+        width: 150px !important;
+        height: auto !important;
+    }
+
+    .imgWrap {
+        padding-top: 0px;
+        padding-bottom: 50px;
+        ;
+    }
+
+    .program-img {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .program-img .position-inmobile {
+        position: absolute;
+        bottom: 240px;
+        right: 20px;
+    }
+
+    .program-img .positionfor-inmobile {
+        position: absolute;
+        bottom: 240px;
+        left: 20px;
+    }
+
+    .contact-img {
+        position: relative !important;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .contact-img .responsivefor-mobile {
+        position: absolute;
+        bottom: 180px;
+        left: 20px;
+    }
+
+    .contact-img .responsive-mobile {
+        position: absolute;
+        bottom: 180px;
+        right: 20px;
+    }
+}

@@ -1,25 +1,4 @@
-.logo{
-    margin-top: 50px;
-    /* margin-top: -30px; */
-    display: flex;
-    /*center For  vertically*/
-    justify-content: center;
-    flex-direction: column;
-    /*center for horizontally*/
-    /* align-items: center; */
-}
-.text{
-    margin-left: 50px;
-}
-.flowerPray{
-    margin-top: 30px;
-    display: flex;
-    /*center For  vertically*/
-    justify-content: center;
-     flex-direction: column;
-    /*center for horizontally*/
-    align-items: center;
-}
+
 .h6{
     text-align: center;
    

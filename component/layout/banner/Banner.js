@@ -1,6 +1,6 @@
 import Image from "next/image";
 import group32 from '../../../assets/Group 32.png';
-import LOGO from '../../../assets/LOGO.png';
+import LOGO from '../../../assets/bannerlogo.png';
 import telecope from '../../../assets/telecope hydra.png';
 import styles from '../../../styles/Banner.module.css';
 import AngelBook from '../../../assets/AngelBook.png';
@@ -11,68 +11,77 @@ import Fly from '../../../assets/fly.png';
 
 export default function Home() {
     return (
-        <div id="banner" className={styles.background}>
-            <div className="row">
-                <div className="col-md-3 col-sm-3 col-2">
-                    <Image src={group32}
-                        alt="group"
-                    />
-                </div>
-                <div className={["col-md-6 col-sm-6 col-8", styles.logo].join(' ')}>
-                    <span className={styles.fly}>
-                        <Image
-                            src={Fly}
-                            alt="fly"
-                        />
-                    </span>
-                    <span className="pl-2 pl-sm-4 pl-md-5">
-                        <h4>How much is information worth to you?</h4>
-                    </span>
-                    <Image src={LOGO}
-                        alt="logo"
-                    />
-                    <span className={styles.h6}>
-                        <h4>How much is information worth to you</h4>
-                        <h4 className="w-75 mx-auto">Es un hecho establecido hace demasiado tiempo que un lector se
-                            distraerá con el contenido del texto de un sitio mientras que
-                            mira su diseño. El punto de usar Lorem Ipsum es que tiene </h4>
-                    </span>
-                </div>
-                <div className="col-md-3 col-sm-3 col-2 mt-3">
-                    <Image src={telecope}
-                        alt="telecop"
-                    />
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-md-2 col-sm-2 col-2">
-                    <Image
-                        src={AngelBook}
-                        alt="angelsBook"
-                    />
-                </div>
-                <div className="col-md-8 col-sm-8 col-8">
+        <div id="banner">
+            <div className="container-fluid relative">
+                <div className="container">
                     <div className="row">
-                        <div className={["col-md-6 col-sm-6 col-6", styles.Woman].join(' ')}>
-                            <Image
-                                src={Woman}
-                                alt='Woman'
-                            />
-                        </div>
-                        <div className={["col-md-6 col-sm-6 col-6", styles.flowerPray].join(' ')}>
-                            <Image
-                                src={FlowerPrayWoman}
-                                alt='flowerPrayWoman'
-                            />
+                        <div className="col-sm-12">
+                            <div className="bannerwrap">
+                                <p className="text-center">
+                                    <Image
+                                        src={Fly}
+                                        alt="fly"
+                                    />
+                                </p>
+                                <p className="banner-text">How much is information worth to you?</p>
+                                <p className="text-center banner-image">
+                                    <Image src={LOGO}
+                                        alt="logo"
+                                    />
+                                </p>
+                                <h4 className="text-center">100 Tokens. 1 Research & Investment DAO.</h4><br className="remove-inmobile" />
+                                <h4 className="text-center">We invest in early-stage web3 protocols <br className="remove-inmobile"/> within the DeFi & NFT ecosystems. </h4>
+                                <p className="imgWrap">
+                                    <span className="pull-left woman-img">
+                                        <Image
+                                            src={Woman}
+                                            alt='Woman'
+                                            width={125}
+                                            height={125}
+                                        />
+                                    </span>
+                                    <span className="pull-right flowerPrayWoman-img">
+                                        <Image
+                                            src={FlowerPrayWoman}
+                                            alt='flowerPrayWoman'
+                                        />
+                                    </span>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="col-md-2 col-sm-2 col-2">
+                <span className="group-image">
+                    <Image
+                        src={group32}
+                        alt="group"
+                        width={400}
+                        height={350}
+                    />
+                </span>
+                <span className="telecop-image">
+                    <Image src={telecope}
+                        alt="telecop"
+                        height={350}
+                        width={400}
+                    />
+                </span>
+                <span className="image-content">
+                    <Image
+                        src={AngelBook}
+                        alt="angelsBook"
+                        width={400}
+                        height={300}
+                    />
+                </span>
+                <span className="group35-image">
                     <Image
                         src={Group35}
                         alt="Group35"
+                        width={400}
+                        height={300}
                     />
-                </div>
+                </span>
             </div>
         </div>
     )

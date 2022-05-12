@@ -2,9 +2,8 @@
     background-image: url('../assets/shannon.png');
     background-size: cover;
     background-attachment: fixed;
-    height: 80%;
-    margin-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+    padding-top: 64px;
 }
 .text{
     color: white;

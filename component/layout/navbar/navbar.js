@@ -28,19 +28,19 @@ return (
                         <a className="nav-link" href="#banner">Banner</a>
                     </li> */}
                     <li className="nav-item">
-                        <a className="nav-link" href="#projects">Projects</a>
+                        <a className="nav-link" style={{fontSize:'4ch'}} href="#projects">Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#expertise">Expertise</a>
+                        <a className="nav-link" style={{fontSize:'4ch'}} href="#expertise">Expertise</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#services">Services</a>
+                        <a className="nav-link" style={{fontSize:'4ch'}} href="#services">Services</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#scoutsprogram">Scouts Program</a>
+                        <a className="nav-link" style={{fontSize:'4ch'}} href="#scoutsprogram">Scouts Program</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#contact">Contactus</a>
+                        <a className="nav-link" style={{fontSize:'4ch'}} href="#contact">Contactus</a>
                     </li>
                 </ul>
             </div>

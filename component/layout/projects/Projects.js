@@ -11,67 +11,51 @@ import Batterfly from '../../../assets/battlefly.png';
 export default function Home() {
     return (
         <div id='projects' className={styles.bgimage}>
-                <h1 style={{fontSize:'10ch', textAlign: 'center', color:'white', paddingTop:'50px'}} >PROJECTS</h1>
-            <div className='row'>
-                <div className='col-md-3'>
-                </div>
-                <div className='col-md-6'>
-                    <div className='row mt-5'>
-                        <div className='col-md-2 text-center'></div>
-                        <div className='col-md-2 text-center'>
-                            <Image
-                                src={redacted}
-                                alt="redacted"
-                            />
-                        </div>
-                        <div className='col-md-2 mt-3 text-center'>
-                            <Image
-                                src={concave}
-                                alt="concave"
-                            />
-                        </div>
-                        <div className='col-md-2 text-center'>
-                            <Image
-                                src={debtdao}
-                                alt="debtdao"
-                            />
-                        </div>
-                        <div className='col-md-2 text-center'>
-                            <Image
-                                src={strudel}
-                                alt="strudel"
-                            />
-                        </div>
-                        <div className='col-md-2 text-center'></div>
-                        <div className='col-md-3 text-center'>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                </div>
-            </div>
-            <div className='row '>
-                <div className='col-md-4 text-center'>
-                </div>
-                <div className='col-md-1 mt-5 text-center'>
-                    <Image
-                    src={bobaimg}
-                    alt="img"
-                    />
-                </div>
-                <div className={['col-md-2 mt-5 text-center', styles.text].join(' ')}>
-                    <Image
-                    src={Vedaoimg}
-                    alt="img"
-                    />
-                </div>
-                <div className='col-md-1 mt-5 text-center'>
-                    <Image
-                    src={Batterfly}
-                    alt="img"
-                    />
-                </div>
-                <div className='col-md-4 text-center'>
+            <h1 style={{ fontSize: '10ch', textAlign: 'center', color: 'white' }} >PROJECTS</h1>
+            <div className='container mt-5'>
+                <div className='product-logo'>
+                    <span className='pImageWrap'>
+                        <Image
+                            src={redacted}
+                            alt="redacted"
+                        />
+                    </span>
+                    <span className='pImageWrap'>
+                        <Image
+                            src={concave}
+                            alt="concave"
+                        />
+                    </span>
+                    <span className='pImageWrap'>
+                        <Image
+                            src={debtdao}
+                            alt="debtdao"
+                        />
+                    </span>
+                    <span className='pImageWrap'>
+                        <Image
+                            src={strudel}
+                            alt="strudel"
+                        />
+                    </span>
+                    <span className='pImageWrap'>
+                        <Image
+                            src={bobaimg}
+                            alt="concave"
+                        />
+                    </span>
+                    <span className='pImageWrap'>
+                        <Image
+                            src={Vedaoimg}
+                            alt="debtdao"
+                        />
+                    </span>
+                    <span className='pImageWrap'>
+                        <Image
+                            src={Batterfly}
+                            alt="strudel"
+                        />
+                    </span>
                 </div>
             </div>
         </div>

@@ -16,13 +16,15 @@ function ScoutsProgram() {
     return (
         <div id='scoutsprogram' className={styles.content}>
             <div className='row'>
-                <div className='col-md-4 col-sm-3 col-3' style={{textAlign: 'end', marginTop:'100px'}}>
-                    <Image
-                        src={Group37}
-                        alt="group"
-                        width={300}
-                        height={500}
-                    />
+                <div className='col-md-4 col-sm-3 col-3 program-img' style={{ textAlign: 'end', marginTop: '100px' }}>
+                    <span className='positionfor-inmobile'>
+                        <Image
+                            src={Group37}
+                            alt="group"
+                            width={300}
+                            height={500}
+                        />
+                    </span>
                 </div>
                 <div className='col-md-4 col-sm-6 col-6'>
                     <div style={{ textAlign: 'center' }}>
@@ -68,21 +70,22 @@ function ScoutsProgram() {
                                     </h4>
                                 </li>
                             </ul>
-                            <h3>
-                                Scouts season 2 is now open for new applicants. Please apply
-
-                                here.
-                            </h3>
+                            <h4>
+                                Scouts season 2 is now open for new applicants.<br/>
+                                <a href='#'>Please applyhere.</a> 
+                            </h4>
                         </span>
                     </div>
                 </div>
-                <div className='col-md-4 col-sm-3 col-3' style={{marginTop:'100px'}}>
-                    <Image
-                        src={Program2}
-                        alt="program"
-                        width={300}
-                        height={500}
-                    />
+                <div className='col-md-4 col-sm-3 col-3 program-img' style={{ marginTop: '100px' }}>
+                    <span className='position-inmobile'>
+                        <Image
+                            src={Program2}
+                            alt="program"
+                            width={300}
+                            height={500}
+                        />
+                    </span>
                 </div>
             </div>
             <span className={styles.img}>

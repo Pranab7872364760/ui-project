@@ -4,7 +4,7 @@ import image8 from '../../../assets/image8.png';
 
 function Services() {
     return (
-        <div id='services' className={styles.bg}>
+        <div id='services' className="service-content">
             <h1 className="text-center text-white mt-5" style={{fontSize:'10ch'}}>Services</h1>
             <div className='row'>
                 <div className='col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3'></div>
@@ -35,13 +35,16 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <div className='col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3' style={{marginTop:'-50px'}}>
-                        <Image
+                <div className='col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 service-img' style={{marginTop:'-50px'}}>
+                    <span className='position-inmobile'>
+                    <Image
                             src={image8}
                             alt="group"
                             width={200}
                             height={300}
                         />
+                    </span>
+                       
                 </div>
             </div>
         </div>

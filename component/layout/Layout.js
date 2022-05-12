@@ -17,9 +17,9 @@ export default function Layout({ Children }) {
                 <Navbar />
                 <div>
                     <div className={styles.footer}>
-                        <div className={styles.content}>
+                        <div className='content'>
                             <Banner />
-                            <span className={styles.span}>
+                            <span className="layout-img">
                                 <Image
                                     src={Group36}
                                     alt="group36"
