@@ -44,7 +44,7 @@ function Contact() {
                     </span>
                 </div>
                 <div className="col-md-4 col-sm-6 col-6">
-                    <h1 style={{ paddingBottom: '30px' }} >Contact US</h1>
+                    <h1 style={{ paddingBottom: '30px' }} >Contact Us</h1>
                     <form onSubmit={handleSubmit} style={{ height: '100%' }}>
                         <div className="mb-3">
                             <input type="name" name="name" className="form-control" style={{ border: 'solid', height: '50px', fontSize: '3ch' }} value={formValue.name} onChange={handleChange} placeholder="Your Name" required />
