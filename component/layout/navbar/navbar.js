@@ -40,7 +40,7 @@ return (
                         <a className="nav-link" style={{fontSize:'4ch'}} href="#scoutsprogram">Scouts Program</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" style={{fontSize:'4ch'}} href="#contact">Contactus</a>
+                        <a className="nav-link" style={{fontSize:'4ch'}} href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
