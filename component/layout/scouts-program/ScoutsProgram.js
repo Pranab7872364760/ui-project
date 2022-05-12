@@ -72,7 +72,7 @@ function ScoutsProgram() {
                             </ul>
                             <h4>
                                 Scouts season 2 is now open for new applicants.<br/>
-                                <a href='#'>Please applyhere.</a> 
+                                <a href='#'>Please apply here.</a> 
                             </h4>
                         </span>
                     </div>
