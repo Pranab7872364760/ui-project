@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Moshed1 from '../../../assets/Moshed1.png';
+import Moshed1 from '../../../assets/moshed1.png';
 import styles from '../../../styles/Contact.module.css';
 import Infotoken from '../../../assets/INFOTOKEN.png';
 import { postForm } from '../../../pages/api/Api';
