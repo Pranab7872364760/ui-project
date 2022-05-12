@@ -26,16 +26,16 @@ export default function Home() {
                         />
                     </span>
                     <span className="pl-2 pl-sm-4 pl-md-5">
-                        <p>How much is information worth to you?</p>
+                        <h4>How much is information worth to you?</h4>
                     </span>
                     <Image src={LOGO}
                         alt="logo"
                     />
                     <span className={styles.h6}>
-                        <h6>How much is information worth to you</h6>
-                        <h6 className="w-75 mx-auto">Es un hecho establecido hace demasiado tiempo que un lector se
+                        <h4>How much is information worth to you</h4>
+                        <h4 className="w-75 mx-auto">Es un hecho establecido hace demasiado tiempo que un lector se
                             distraerá con el contenido del texto de un sitio mientras que
-                            mira su diseño. El punto de usar Lorem Ipsum es que tiene </h6>
+                            mira su diseño. El punto de usar Lorem Ipsum es que tiene </h4>
                     </span>
                 </div>
                 <div className="col-md-3 col-sm-3 col-2 mt-3">

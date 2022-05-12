@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from '../../../styles/Expertise.module.css';
 import Image from "next/image";
-import shell from '../../../assets/shell (1).png';
-import image17 from '../../../assets/image 17.png';
-import image16 from '../../../assets/image 16.png';
-import image18 from '../../../assets/image 18.png';
-import image19 from '../../../assets/image 19.png';
-import image20 from '../../../assets/image 20.png';
+import image1 from '../../../assets/image1.png';
+import image2 from '../../../assets/image2.png';
+import image3 from '../../../assets/image3.png';
+import image4 from '../../../assets/image4.png';
+import image5 from '../../../assets/image5.png';
+import image6 from '../../../assets/image6.png';
 
 function Expertise() {
 
@@ -28,7 +28,7 @@ function Expertise() {
                         <a style={{ textDecoration: 'none', display: 'block', cursor: 'pointer' }} id='1a' className={['text-center', value == '#1a' ? styles.tabs : ''].join(' ')}>
                             <span className="tabImageWrap">
                                 <Image
-                                    src={shell}
+                                    src={image1}
                                     alt='shell'
                                     height={40}
                                 />
@@ -41,7 +41,7 @@ function Expertise() {
                         <a style={{ textDecoration: 'none', display: 'block', color: 'black' }} id='2a' className={['text-center', value == '#2a' ? styles.tabs : ''].join(' ')}>
                             <span className="tabImageWrap">
                                 <Image
-                                    src={image16}
+                                    src={image2}
                                     alt='shell'
                                     height={40}
                                 />
@@ -54,7 +54,7 @@ function Expertise() {
                         <a style={{ textDecoration: 'none', display: 'block', color: 'black' }} id='3a' className={['text-center', value == '#3a' ? styles.tabs : ''].join(' ')}>
                             <span className="tabImageWrap">
                                 <Image
-                                    src={image17}
+                                    src={image3}
                                     alt='shell'
                                     height={40}
                                 />
@@ -67,7 +67,7 @@ function Expertise() {
                         <a style={{ textDecoration: 'none', display: 'block', color: 'black' }} id='4a' className={['text-center', value == '#4a' ? styles.tabs : ''].join(' ')}>
                             <span className="tabImageWrap">
                                 <Image
-                                    src={image18}
+                                    src={image4}
                                     alt='shell'
                                     height={40}
                                 />
@@ -80,7 +80,7 @@ function Expertise() {
                         <a style={{ textDecoration: 'none', display: 'block', color: 'black' }} id='5a' className={['text-center', value == '#5a' ? styles.tabs : ''].join(' ')}>
                             <span className="tabImageWrap">
                                 <Image
-                                    src={image19}
+                                    src={image5}
                                     alt='shell'
                                     height={40}
                                 />
@@ -93,7 +93,7 @@ function Expertise() {
                         <a style={{ textDecoration: 'none', display: 'block', color: 'black' }} id='6a' className={['text-center', value == '#6a' ? styles.tabs : ''].join(' ')}>
                             <span className="tabImageWrap">
                                 <Image
-                                    src={image20}
+                                    src={image6}
                                     alt='shell'
                                     height={40}
                                 />

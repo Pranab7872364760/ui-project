@@ -1,6 +1,6 @@
 import styles from '../../../styles/Services.module.css';
 import Image from "next/image";
-import Group48 from '../../../assets/Group 48.png';
+import image8 from '../../../assets/image8.png';
 
 function Services() {
     return (
@@ -37,7 +37,7 @@ function Services() {
                 </div>
                 <div className='col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3' style={{marginTop:'-50px'}}>
                         <Image
-                            src={Group48}
+                            src={image8}
                             alt="group"
                             width={200}
                             height={300}

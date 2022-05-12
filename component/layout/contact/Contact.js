@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Moshed1 from '../../../assets/moshed1.png';
+import image7 from '../../../assets/image7.png';
+import image9 from '../../../assets/image9.png';
 import styles from '../../../styles/Contact.module.css';
 import Infotoken from '../../../assets/INFOTOKEN.png';
 import { postForm } from '../../../pages/api/Api';
@@ -32,9 +33,9 @@ function Contact() {
     return (
         <div className="container">
             <div id="contact" className="row mt-5">
-                <div className="col-md-4 col-sm-4 col-3" style={{textAlign:'end'}}>
+                <div className="col-md-4 col-sm-4 col-3" style={{ textAlign: 'end' }}>
                     <Image
-                        src={Moshed1}
+                        src={image7}
                         alt='group'
                         width={200}
                         height={250}
@@ -58,11 +59,12 @@ function Contact() {
                     </form>
                 </div>
                 <div className="col-md-4 col-sm-4 col-3">
-                   <img 
-                    src="moshed2.png"
-                    alt="moshed2"
-                    height={200}
-                   />
+                    <Image
+                        src={image9}
+                        alt="image9"
+                        width={200}
+                        height={250}
+                    />
                 </div>
             </div>
             <div className="text-center mt-5">
