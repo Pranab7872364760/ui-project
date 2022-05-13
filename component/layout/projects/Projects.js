@@ -28,14 +28,14 @@ export default function Home() {
                     </span>
                     <span className='pImageWrap'>
                         <Image
-                            src={debtdao}
-                            alt="debtdao"
+                            src={strudel}
+                            alt="strudel"
                         />
                     </span>
                     <span className='pImageWrap'>
                         <Image
-                            src={strudel}
-                            alt="strudel"
+                            src={debtdao}
+                            alt="debtdao"
                         />
                     </span>
                     <span className='pImageWrap'>

@@ -97,9 +97,9 @@
     display: none;
 } */
 .product-logo{
-    width: 800px;
-    margin: 0px auto;
-    text-align: center;
+    width: 800px !important;
+    margin: 0px auto !important;
+    text-align: center !important;
 
 }
 .product-logo .pImageWrap{
@@ -126,6 +126,80 @@
 .contact-text{
     margin: 0px auto;
 }
-.contact-text .text-wrap{
-    padding: 0px 5px 5px 5px;
+.text-wrap{
+    padding: 0px 5px 0px 5px;
+}
+.img-body{
+    position: relative;
+}
+.number-img{
+    position: absolute;
+    top: -83px;
+    right: 0px;
+}
+.programwrap{
+    margin: 0px auto;
+    padding-top: 17px;
+    padding-bottom: 80px;
+    width: 447px;
+}
+.group-img{
+    position: absolute !important;
+    top: 108px;
+    left: 224px !important;
+}
+.program-img{
+    position: absolute;
+    top: 103px;
+    right: 251px;
+}
+.topography-img{
+    position: absolute;
+    bottom: -8px;
+    left: 149px;
+}
+.number-ing{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.img-footer{
+    position: absolute;
+    left: 0px;
+}
+.contact-content{
+    position: absolute;
+}
+.contactwrap{
+    margin: 0px auto;
+    padding-top: 283px;
+    width: 506px;
+}
+.image7{
+    position: absolute;
+    top: 327px;
+    left: 235px;
+}
+.image9{
+    position: absolute;
+    top: 327px;
+    right: 235px;
+}
+.Rectangle1-img{
+    position: absolute;
+    left: 0px;
+    top: -6px;
+}
+.Rectangle3-img{
+    position: absolute;
+    left: 0px;
+    top: 44px;
+}
+.Rectangle-img{
+    position: absolute;
+    left: 0px;
+    top: 139px;
+}
+.program-text{
+    padding-left: 28px;
 }

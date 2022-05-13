@@ -63,7 +63,7 @@ return (
                     <a className="nav-link text-white" href="#scoutsprogram">Scouts Program</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link text-white" href="#contact">Contactus</a>
+                    <a className="nav-link text-white" href="#contact">Contact</a>
                 </li>
         </div>
     </div>

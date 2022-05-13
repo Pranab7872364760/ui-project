@@ -33,9 +33,9 @@
     }
 
     .product-logo {
-        width: 100%;
-        margin: 0px auto;
-        text-align: center;
+        width: 110% !important;
+        margin: 0px auto !important;
+        text-align: center !important;
 
     }
 
@@ -54,8 +54,8 @@
 
     .service-img .position-inmobile {
         position: absolute;
-        bottom: 100px;
-        right: 0px;
+        bottom: 163px;
+        right: 9px;
     }
 
     .service-content {
@@ -93,23 +93,24 @@
         ;
     }
 
-    .program-img {
-        position: relative;
+    /* .program-img {
+        width: 100px;
+        height: auto;
         bottom: 0px;
         right: 0px;
-    }
+    } */
 
-    .program-img .position-inmobile {
+    /* .program-img .position-inmobile {
         position: absolute;
         bottom: 240px;
         right: 20px;
-    }
+    } */
 
-    .program-img .positionfor-inmobile {
+    /* .program-img .positionfor-inmobile {
         position: absolute;
         bottom: 240px;
         left: 20px;
-    }
+    } */
 
     .contact-img {
         position: relative !important;
@@ -128,4 +129,192 @@
         bottom: 180px;
         right: 20px;
     }
+
+    .programwrap {
+        width: 43% !important;
+        padding-bottom: 0px;
+    }
+
+    .group-img {
+        width: 115px !important;
+        height: auto !important;
+        top: 486px;
+        left: 6px !important;
+    }
+
+    .program-img {
+        width: 115px !important;
+        height: auto !important;
+        top: 486px !important;
+        right: 6px;
+    }
+
+    .topography-img {
+        width: 46px !important;
+        height: auto !important;
+        bottom: -60px;
+        left: 0px;
+    }
+
+    .number-ing {
+        width: 38px !important;
+        height: auto !important;
+        bottom: -56px;
+        right: 0px;
+    }
+
+    .Rectangle1-img {
+        width: 0px;
+        height: auto !important;
+        top: 120px;
+        left: -2px;
+    }
+
+    .Rectangle3-img {
+        width: 486px;
+        height: 100px;
+        top: 76px;
+        left: -2px;
+    }
+
+    .Rectangle-img {
+        width: 52px;
+        height: 100px;
+        top: 53px;
+        left: -2px;
+    }
+
+    .Rectangle1-img img {
+        width: 485px !important;
+        height: 23px !important;
+    }
+
+    .Rectangle-img img {
+        width: 485px !important;
+        height: 30px !important;
+    }
+
+    .Rectangle3-img img {
+        width: 485px !important;
+        height: 44px !important;
+    }
+
+    .contactwrap {
+        margin: 0px auto;
+        padding-top: 206px;
+        width: 215px;
+    }
+
+    .image7 {
+        width: 74px !important;
+        height: auto;
+        top: 318px;
+        left: 4px;
+    }
+
+    .image9 {
+        width: 74px !important;
+        height: auto;
+        top: 318px;
+        right: 4px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* .program-img {
+        width: 134px;
+        height: auto;
+        top: 276px;
+        right: 6px !important;
+    } */
+    .programwrap {
+        width: 43% !important;
+        padding-bottom: 0px;
+    }
+
+    /* .group-img {
+        width: 134px !important;
+        height: auto !important;
+        top: 277px;
+        left: 22px !important;
+    } */
+
+    .topography-img {
+        width: 56px !important;
+        height: auto !important;
+        bottom: -60px;
+        left: 10px;
+    }
+
+    .number-ing {
+        width: 56px !important;
+        height: auto !important;
+        bottom: -56px;
+        right: 10px;
+    }
+
+    .Rectangle1-img {
+        width: 0px;
+        height: auto !important;
+        top: 120px;
+        left: -2px;
+    }
+
+    .Rectangle3-img {
+        width: 770px;
+        height: 100px;
+        top: 76px;
+        left: -2px;
+    }
+
+    .Rectangle-img {
+        width: 52px;
+        height: 100px;
+        top: 53px;
+        left: -2px;
+    }
+
+    .Rectangle1-img img {
+        width: 769px !important;
+        height: 23px !important;
+    }
+
+    .Rectangle-img img {
+        width: 769px !important;
+        height: 30px !important;
+    }
+
+    .Rectangle3-img img {
+        width: 769px !important;
+        height: 44px !important;
+    }
+
+    /* .contactwrap {
+        margin: 0px auto;
+        padding-top: 206px;
+        width: 215px;
+    } */
+
+    /* .image7 {
+        width: 121px !important;
+        height: auto;
+        top: 318px;
+        left: 118px;
+    }
+
+    .image9 {
+        width: 121px !important;
+        height: auto;
+        top: 318px;
+        right: 118px;
+    } */
+
+    .product-logo .pImageWrap {
+        width: 83%;
+        display: block;
+        padding: 0px 5px 10px 5px;
+
+    }
+
 }
