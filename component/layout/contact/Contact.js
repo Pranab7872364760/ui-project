@@ -33,7 +33,7 @@ function Contact() {
 
     return (
         <div>
-            <div className="relative">
+            <div id="contact" className="relative">
                 <span className="Rectangle1-img">
                     <img
                         src='Rectangle1.png'
