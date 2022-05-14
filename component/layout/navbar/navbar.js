@@ -8,7 +8,7 @@ export default function Navbar() {
 
 
   function openNav() {
-    document.getElementById("mySidenav").style.width = '250px'
+    document.getElementById("mySidenav").style.width = '260px'
 
 };
 
@@ -28,19 +28,19 @@ return (
                         <a className="nav-link" href="#banner">Banner</a>
                     </li> */}
                     <li className="nav-item">
-                        <a className="nav-link" style={{fontSize:'4ch'}} href="#projects">Projects</a>
+                        <a className="nav-link" style={{fontSize:'3ch'}} href="#projects">Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" style={{fontSize:'4ch'}} href="#expertise">Expertise</a>
+                        <a className="nav-link" style={{fontSize:'3ch'}} href="#expertise">Expertise</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" style={{fontSize:'4ch'}} href="#services">Services</a>
+                        <a className="nav-link" style={{fontSize:'3ch'}} href="#services">Services</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" style={{fontSize:'4ch'}} href="#scoutsprogram">Scouts Program</a>
+                        <a className="nav-link" style={{fontSize:'3ch'}} href="#scoutsprogram">Scouts Program</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" style={{fontSize:'4ch'}} href="#contact">Contact</a>
+                        <a className="nav-link" style={{fontSize:'3ch'}} href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>

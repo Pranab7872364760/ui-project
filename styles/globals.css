@@ -12,7 +12,7 @@
     list-style: none;
     float: left;
     width: 100%;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 40px 0px;
 }
 
 .tab-list li {
@@ -25,6 +25,7 @@
     height: 47px;
     overflow: hidden;
     display: inline-block;
+    padding-top: 5px;
 }
 
 .tab-list li a {
@@ -34,9 +35,9 @@
 }
 
 .image-content {
-   position: absolute;
-   bottom: -16px;
-   left: 0px;
+    position: absolute;
+    bottom: -16px;
+    left: 0px;
 }
 
 .woman-img {
@@ -44,18 +45,18 @@
 }
 
 .telecop-image {
-   position: absolute;
-   top: 0px;
-   right: 0px;
+    position: absolute;
+    top: -37px;
+    right: 2px;
 }
 
-.flowerPrayWoman-img{
+.flowerPrayWoman-img {
     padding-right: 80px;
 }
 
 .group35-image {
     position: absolute;
-    bottom: 75px;
+    bottom: 21px;
     right: 0px;
 }
 
@@ -70,7 +71,7 @@
 
 .bannerwrap {
     margin: 0px auto;
-    padding-top: 17px;
+    padding-top: 0px;
     padding-bottom: 80px;
     width: 796px;
 }
@@ -79,8 +80,12 @@
     width: 100%;
 }
 
+.fly-img {
+    top: 0px;
+}
+
 .banner-text {
-    padding-left: 25px;
+    padding-left: 55px;
     font-size: medium;
 }
 
@@ -90,116 +95,197 @@
 
 .group-image {
     position: absolute;
-    top: 0px;
-    left: -11px;
+    top: -62px;
+    left: 0px;
 }
+
 /* .remove-inmobile{
     display: none;
 } */
-.product-logo{
+.product-logo {
     width: 800px !important;
     margin: 0px auto !important;
     text-align: center !important;
 
 }
-.product-logo .pImageWrap{
+
+.product-logo .pImageWrap {
     display: inline-block;
     padding: 0px 20px 20px 20px;
 
 }
-.service-content{
+
+.service-content {
     padding-top: 30px;
-    background-image: url('../assets/Services1.png');
+    background-image: url('../assets/serviceimg.png');
     padding-bottom: 60px;
     background-size: cover;
 
 }
-.layout-img{
+
+.layout-img {
     position: absolute;
     width: 100%;
     text-align: center;
     bottom: -50px;
 }
-.content{
+
+.content {
     position: relative;
 }
-.contact-text{
+
+.contact-text {
     margin: 0px auto;
 }
-.text-wrap{
+
+.text-wrap {
     padding: 0px 5px 0px 5px;
 }
-.img-body{
+
+.img-body {
     position: relative;
 }
-.number-img{
+
+/* .number-img {
     position: absolute;
     top: -83px;
     right: 0px;
-}
-.programwrap{
+} */
+
+.programwrap {
     margin: 0px auto;
     padding-top: 17px;
     padding-bottom: 80px;
     width: 447px;
 }
-.group-img{
+
+.group-img {
     position: absolute !important;
     top: 108px;
-    left: 224px !important;
+    left: 8.9% !important;
 }
-.program-img{
+
+.program-img {
     position: absolute;
     top: 103px;
-    right: 251px;
+    right: 8.9%;
 }
-.topography-img{
+
+.topography-img {
     position: absolute;
-    bottom: -8px;
-    left: 149px;
+    bottom: -16px;
+    left: 95px;
 }
-.number-ing{
+
+.number-img {
     position: absolute;
-    bottom: 0px;
+    bottom: -26px;
     right: 0px;
 }
-.img-footer{
+
+.img-footer {
     position: absolute;
     left: 0px;
 }
-.contact-content{
+
+.contact-content {
     position: absolute;
 }
-.contactwrap{
+
+.contactwrap {
     margin: 0px auto;
     padding-top: 283px;
     width: 506px;
 }
-.image7{
+
+.image7 {
     position: absolute;
     top: 327px;
-    left: 235px;
+    left: 145px;
 }
-.image9{
+
+.image9 {
     position: absolute;
     top: 327px;
-    right: 235px;
+    right: 145px;
 }
-.Rectangle1-img{
+
+.Rectangle1-img {
     position: absolute;
     left: 0px;
     top: -6px;
 }
-.Rectangle3-img{
+
+.Rectangle3-img {
     position: absolute;
     left: 0px;
     top: 44px;
 }
-.Rectangle-img{
+
+.Rectangle-img {
     position: absolute;
     left: 0px;
     top: 139px;
 }
-.program-text{
+
+.program-text {
     padding-left: 28px;
+}
+
+.defi-text {
+    font-family: 'urbanist', sans-serif;
+    font-weight: 800 !important;
+}
+
+.expert-text {
+    font-family: 'urbanist', sans-serif;
+    font-weight: 600 !important;
+}
+
+.sora-text {
+    font-family: 'urbanist', sans-serif;
+    font-weight: 600 !important;
+}
+
+.scout-text {
+    font-family: 'urbanist', sans-serif;
+    font-weight: 500 !important;
+}
+
+.logo-text {
+    font-family: 'sora', sans-serif;
+    font-weight: 500 !important;
+}
+
+.info-text {
+    font-family: 'sora', sans-serif;
+    font-weight: 400 !important;
+}
+
+.contact-us{
+    font-family: 'sora', sans-serif;
+    font-weight: 500 !important;
+    font-size: 'bold';
+}
+
+
+/* .expert-content{
+    padding-left: 0px;
+    padding-right: 0px;
+} */
+/* #exTab1{
+  margin: 20px 20px;
+} */
+.contact-content {
+    background-image: url('../assets/Group29.png');
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    margin-top: 19px;
+    background-position: center center;
+}
+
+.group29 {
+    position: absolute;
+    bottom: -218px;
 }

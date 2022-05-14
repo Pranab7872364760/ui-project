@@ -3,7 +3,7 @@ import Banner from './banner/Banner';
 import Expertise from './Expertise/Expertise';
 import Projects from './projects/Projects';
 import Image from "next/image";
-import Group36 from '../../assets/Group 36.png';
+import Group36 from '../../assets/moshed2.png';
 import styles from '../../styles/Layout.module.css';
 import ScoutsProgram from './scouts-program/ScoutsProgram';
 import Services from './services/Services';

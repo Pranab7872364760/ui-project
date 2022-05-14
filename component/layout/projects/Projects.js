@@ -11,7 +11,7 @@ import Batterfly from '../../../assets/battlefly.png';
 export default function Home() {
     return (
         <div id='projects' className={styles.bgimage}>
-            <h1 style={{ fontSize: '10ch', textAlign: 'center', color: 'white' }} >PROJECTS</h1>
+            <h1 style={{ fontSize: '10ch', textAlign: 'center', color: 'white' }} className="defi-text" >PROJECTS</h1>
             <div className='container mt-5'>
                 <div className='product-logo'>
                     <span className='pImageWrap'>

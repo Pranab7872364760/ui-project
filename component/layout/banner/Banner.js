@@ -1,10 +1,10 @@
 import Image from "next/image";
-import group32 from '../../../assets/Group 32.png';
-import LOGO from '../../../assets/bannerlogo.png';
+import group32 from '../../../assets/angels.png';
+import LOGO from '../../../assets/LOGO2.png';
 import telecope from '../../../assets/telecope hydra.png';
 import styles from '../../../styles/Banner.module.css';
 import AngelBook from '../../../assets/AngelBook.png';
-import Group35 from '../../../assets/Group 35.png';
+import Group35 from '../../../assets/buddhatank.png';
 import FlowerPrayWoman from '../../../assets/FlowerPrayWoman.png';
 import Woman from '../../../assets/flowerpraylayer.png';
 import Fly from '../../../assets/fly.png';
@@ -17,20 +17,22 @@ export default function Home() {
                     <div className="row">
                         <div className="col-sm-12">
                             <div className="bannerwrap">
-                                <p className="text-center">
+                                <p className="text-center fly-img">
                                     <Image
                                         src={Fly}
                                         alt="fly"
+                                        width={100}
+                                        height={100}
                                     />
                                 </p>
-                                <p className="banner-text">How much is information worth to you?</p>
+                                <h6 className="banner-text info-text">How much is information worth to you?</h6>
                                 <p className="text-center banner-image">
                                     <Image src={LOGO}
                                         alt="logo"
                                     />
                                 </p>
-                                <h4 className="text-center">100 Tokens. 1 Research & Investment DAO.</h4><br className="remove-inmobile" />
-                                <h4 className="text-center">We invest in early-stage web3 protocols <br className="remove-inmobile"/> within the DeFi & NFT ecosystems. </h4>
+                                <h4 className="text-center logo-text">100 Tokens. 1 Research & Investment DAO.</h4><br className="remove-inmobile" />
+                                <h4 className="text-center logo-text">We invest in early-stage web3 protocols <br className="remove-inmobile"/> within the DeFi & NFT ecosystems. </h4>
                                 <p className="imgWrap">
                                     <span className="pull-left woman-img">
                                         <Image
@@ -55,15 +57,15 @@ export default function Home() {
                     <Image
                         src={group32}
                         alt="group"
-                        width={400}
-                        height={350}
+                        width={450}
+                        height={400}
                     />
                 </span>
                 <span className="telecop-image">
                     <Image src={telecope}
                         alt="telecop"
-                        height={350}
-                        width={400}
+                        height={400}
+                        width={300}
                     />
                 </span>
                 <span className="image-content">
@@ -78,8 +80,8 @@ export default function Home() {
                     <Image
                         src={Group35}
                         alt="Group35"
-                        width={400}
-                        height={300}
+                        width={410}
+                        height={260}
                     />
                 </span>
             </div>
