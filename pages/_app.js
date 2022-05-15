@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-      <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600&family=Urbanist:wght@300;400;500;600;900&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600&family=Urbanist:wght@300;400;500;600;900&display=swap" rel="stylesheet"/>
       {/* bootstrap */}
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"

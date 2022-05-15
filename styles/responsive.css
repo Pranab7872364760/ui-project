@@ -174,7 +174,6 @@
         width: 32% !important;
         height: auto !important;
         left: -15px;
-        ;
     }
 
     .telecop-image {
@@ -235,6 +234,14 @@
         width: 100% !important;
         height: 60px !important;
         margin-top: 96px;
+    }
+
+    /* .scout-text{
+        left: 10px;
+    } */
+
+    .program-text {
+        padding-left: 24px;
     }
 
     .tab-list li {
@@ -380,22 +387,22 @@
     .group-img {
         width: 28% !important;
         height: auto !important;
-        top: 760px;
+        top: 780px;
         left: 2px !important;
     }
 
     .program-img {
         width: 28% !important;
         height: auto !important;
-        top: 760px !important;
+        top: 780px !important;
         right: 2px;
     }
 
     .topography-img {
         width: 9% !important;
         height: auto !important;
-        bottom: -95px;
-        left: 30px;
+        bottom: -101px;
+        left: 20px;
     }
 
     .number-img {
@@ -536,5 +543,10 @@
         position: absolute;
         top: 327px;
         left: 68px;
+    }
+    .group-image {
+        width: 32% !important;
+        height: auto !important;
+        left: -15px;
     }
 }

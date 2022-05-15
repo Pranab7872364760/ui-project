@@ -25,7 +25,7 @@ function ScoutsProgram() {
                                         alt="Moshed"
                                     />
                                 </p>
-                                <h1 className='text-center mb-5 defi-text' style={{ fontSize: '10ch' }}>Scouts Program</h1>
+                                <h1 className='text-center mb-5 defi-text scout-text' style={{ fontSize: '10ch' }}>Scouts Program</h1>
                                 <li className='scout-text' style={{ fontSize: '3ch', display:'inline-block' }}>
                                     The Scouts Program was created to enable exceptional individuals to
                                     become part of the Information Token community without holding an
