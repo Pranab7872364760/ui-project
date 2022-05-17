@@ -8,6 +8,7 @@ import styles from '../../styles/Layout.module.css';
 import ScoutsProgram from './scouts-program/ScoutsProgram';
 import Services from './services/Services';
 import Contact from './contact/Contact';
+// import SliderTab from './SliderTab';
 
 
 export default function Layout({ Children }) {
@@ -34,6 +35,7 @@ export default function Layout({ Children }) {
                     <Services />
                     <ScoutsProgram />
                     <Contact />
+                    {/* <SliderTab/> */}
                 </div>
             </div>
             <main>

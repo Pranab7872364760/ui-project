@@ -204,11 +204,27 @@
     .tab-list {
         width: 100% !important;
         padding-left: 17px;
+        display: none;
     }
+
+    .tab-text {
+        display: none;
+    }
+
 
     .tab-list li {
 
         width: 32% !important;
+    }
+
+    .tabfor-mobile {
+        padding-left: 148px !important;
+    }
+
+    .tab-panel {
+        width: 100%;
+        height: 200px;
+        overflow: scroll;
     }
 
     .number-img {
@@ -221,8 +237,8 @@
     .topography-img {
         width: 12% !important;
         height: auto !important;
-        bottom: -115px;
-        left: 35px;
+        bottom: -118px !important;
+        left: 30px !important;
     }
 }
 
@@ -230,6 +246,19 @@
 
     /*  .Services_text____l2G p{     font-size: 14px;
         line-height: 23px;} */
+
+    .tab-panel {
+        /* max-height: 100%; */
+        width: 100%;
+        height: 200px;
+        overflow: scroll;
+        margin-left: 1px;
+    }
+
+    .tabfor-mobile {
+        padding-left: 34px !important;
+    }
+
     .contact-content {
         width: 100% !important;
         height: 60px !important;
@@ -251,6 +280,11 @@
 
     .tab-list {
         padding-left: 90px;
+        display: none;
+    }
+
+    .tab-text {
+        display: none;
     }
 
     .group-image img {
@@ -401,8 +435,8 @@
     .topography-img {
         width: 9% !important;
         height: auto !important;
-        bottom: -101px;
-        left: 20px;
+        bottom: -101px !important;
+        left: 20px !important;
     }
 
     .number-img {
@@ -491,6 +525,10 @@
 
 @media only screen and (min-width: 1024px) {
 
+    .tabfor-mobile {
+        display: none;
+    }
+
     .contact-content {
         width: 100% !important;
         height: 172px !important;
@@ -524,7 +562,7 @@
     .topography-img {
         position: absolute;
         bottom: -27px;
-        left: 82px;
+        left: 82px !important;
     }
 
     /* .topography-img {
@@ -544,6 +582,7 @@
         top: 327px;
         left: 68px;
     }
+
     .group-image {
         width: 32% !important;
         height: auto !important;
