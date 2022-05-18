@@ -153,7 +153,7 @@ function Expertise() {
                 >
                     <TabContext value={tabValue}>
                         <TabList
-                            indicatorColor={{backgroundColor:'black'}}
+                            // indicatorColor={{backgroundColor:'black'}}
                             onChange={handleChange}
                             variant="scrollable"
                             scrollButtons
