@@ -30,7 +30,7 @@ function ScoutsProgram() {
                                     The Scouts Program was created to enable exceptional individuals to
                                     become part of the Information Token community without holding an
                                     information token for ongoing contributions to the DAO
-                                </li>
+                                </li><br/>
                                 <br />
                                 <h2 className='expert-text'>Benefits</h2>
                                 <ul className='program-text' style={{ fontSize: '3ch' }}>
@@ -82,7 +82,7 @@ function ScoutsProgram() {
                     <Image
                         src={numberimg}
                         alt="img"
-                        width={150}
+                        // width={150}
                     />
                 </span>
             </div>

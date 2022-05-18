@@ -100,16 +100,16 @@ function Contact() {
                     <Image
                         src={image7}
                         alt='group'
-                        width={320}
-                        height={284}
+                        // width={320}
+                        // height={284}
                     />
                 </span>
                 <span className="image9">
                     <Image
                         src={image9}
                         alt="image9"
-                        width={320}
-                        height={284}
+                        // width={320}
+                        // height={284}
                     />
                 </span>
             </div>

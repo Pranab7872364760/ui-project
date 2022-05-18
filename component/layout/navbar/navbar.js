@@ -37,7 +37,7 @@ return (
                         <a className="nav-link" style={{fontSize:'3ch'}} href="#services">Services</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" style={{fontSize:'3ch'}} href="#scoutsprogram">Scouts Program</a>
+                        <a className="nav-link" style={{fontSize:'3ch'}} href="#scoutsprogram">Scouts</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" style={{fontSize:'3ch'}} href="#contact">Contact</a>

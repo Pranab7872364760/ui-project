@@ -21,8 +21,8 @@ export default function Home() {
                                     <Image
                                         src={Fly}
                                         alt="fly"
-                                        width={100}
-                                        height={100}
+                                        // width={100}
+                                        // height={100}
                                     />
                                 </p>
                                 <h6 className="banner-text info-text">How much is information worth to you?</h6>
@@ -38,8 +38,8 @@ export default function Home() {
                                         <Image
                                             src={Woman}
                                             alt='Woman'
-                                            width={125}
-                                            height={125}
+                                            // width={125}
+                                            // height={125}
                                         />
                                     </span>
                                     <span className="pull-right flowerPrayWoman-img">
@@ -57,31 +57,35 @@ export default function Home() {
                     <Image
                         src={group32}
                         alt="group"
-                        width={450}
-                        height={400}
+                        layout="intrinsic"
+                        // width={450}
+                        // height={400}
                     />
                 </span>
                 <span className="telecop-image">
                     <Image src={telecope}
                         alt="telecop"
-                        height={400}
-                        width={300}
+                        layout="intrinsic"
+                        // height={500}
+                        // width={400}
                     />
                 </span>
                 <span className="image-content">
                     <Image
                         src={AngelBook}
                         alt="angelsBook"
-                        width={400}
-                        height={300}
+                        layout="intrinsic"
+                        // width={548}
+                        // height={333}
                     />
                 </span>
                 <span className="group35-image">
                     <Image
                         src={Group35}
                         alt="Group35"
-                        width={410}
-                        height={260}
+                        layout="intrinsic"
+                        // width={410}
+                        // height={260}
                     />
                 </span>
             </div>

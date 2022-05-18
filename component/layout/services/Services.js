@@ -12,14 +12,14 @@ function Services() {
                     <div className={['row', styles.content].join(' ')}>
                         <div className='col-xl-4 col-lg-4 col-md-4 col-sm-6'>
                             <span className='text-white'><h2 className='defi-text'>Ventures</h2></span>
-                            <span className={styles.text}><p>
+                            <span className={styles.text}><p style={{fontSize:18}}>
                                 We actively invest in early-stage projects,
                                 looking for talented builders in the Defi and NFT spaces
                             </p></span>
                         </div>
                         <div className='col-xl-4 col-lg-4 col-md-4 col-sm-6'>
                             <span className='text-white'><h2 className='defi-text'>Consultancy</h2></span>
-                            <span className={styles.text}><p>
+                            <span className={styles.text}><p style={{fontSize:18}}>
                                 We advise protocols on strategy. marketing. policy, growth,
                                 and user education. Each partnership is unique,
                                 with a select working group created to provide targeted research and recommendations.
@@ -27,7 +27,7 @@ function Services() {
                         </div>
                         <div className='col-xl-4 col-lg-4 col-md-4 col-sm-6'>
                             <span className='text-white'><h2 className='defi-text'>Labs</h2></span>
-                            <span className={styles.text}><p>
+                            <span className={styles.text}><p style={{fontSize:18}}>
                                 We are actively building and focused on experimental ideas.
                                 By using our knowledge of DeFi and NFTS to move fast and ship,
                                 we take advantage of opportunities that emerge in the market.
@@ -40,8 +40,8 @@ function Services() {
                     <Image
                             src={image8}
                             alt="group"
-                            width={200}
-                            height={300}
+                            // width={200}
+                            // height={300}
                         />
                     </span>
                        

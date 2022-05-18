@@ -22,10 +22,10 @@
 }
 
 .tabImageWrap {
-    height: 47px;
+    height: 57px;
     overflow: hidden;
     display: inline-block;
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 .tab-list li a {
@@ -42,6 +42,7 @@
 
 .woman-img {
     padding-left: 80px;
+    padding-top: 121px;
 }
 
 .telecop-image {
@@ -52,6 +53,7 @@
 
 .flowerPrayWoman-img {
     padding-right: 80px;
+    padding-top: 121px;
 }
 
 .group35-image {
@@ -72,7 +74,7 @@
 .bannerwrap {
     margin: 0px auto;
     padding-top: 0px;
-    padding-bottom: 80px;
+    padding-bottom: 253px;
     width: 796px;
 }
 

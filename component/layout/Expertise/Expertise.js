@@ -7,11 +7,10 @@ import image3 from '../../../assets/image17.png';
 import image4 from '../../../assets/image18.png';
 import image5 from '../../../assets/image19.png';
 import image6 from '../../../assets/image20.png';
-import { Tabs, tabsClasses } from '@mui/material';
+import { tabsClasses } from '@mui/material';
 import { Box } from '@mui/material';
 import { Tab } from '@mui/material';
 import { TabContext, TabList, TabPanel } from '@mui/lab';
-import { fontSize } from '@mui/system';
 
 
 function Expertise() {
@@ -43,7 +42,7 @@ function Expertise() {
                                 <Image
                                     src={image1}
                                     alt='shell'
-                                    height={40}
+                                    // height={38}
                                 />
                             </span>
                             <h3 className='text-center expert-text'>Strategy</h3>
@@ -56,7 +55,7 @@ function Expertise() {
                                 <Image
                                     src={image2}
                                     alt='shell'
-                                    height={40}
+                                    // height={51}
                                 />
                             </span>
                             <h3 className='text-center expert-text'>Tokenomics</h3>
@@ -69,7 +68,7 @@ function Expertise() {
                                 <Image
                                     src={image3}
                                     alt='shell'
-                                    height={40}
+                                    // height={57}
                                 />
                             </span>
                             <h3 className='text-center expert-text'>Marketing</h3>
@@ -82,7 +81,7 @@ function Expertise() {
                                 <Image
                                     src={image4}
                                     alt='shell'
-                                    height={40}
+                                    // height={64}
                                 />
                             </span>
                             <h3 className='text-center expert-text'>Development</h3>
@@ -95,7 +94,7 @@ function Expertise() {
                                 <Image
                                     src={image5}
                                     alt='shell'
-                                    height={40}
+                                    // height={57}
                                 />
                             </span>
                             <h3 className='text-center expert-text'>Go to Market</h3>
@@ -108,7 +107,7 @@ function Expertise() {
                                 <Image
                                     src={image6}
                                     alt='shell'
-                                    height={40}
+                                    // height={57}
                                 />
                             </span>
                             <h3 className='text-center expert-text'>Legal</h3>
@@ -153,28 +152,29 @@ function Expertise() {
                 >
                     <TabContext value={tabValue}>
                         <TabList
-                            // indicatorColor={{backgroundColor:'black'}}
+                            // indicatorColor={{backgroundColor:'primary'}}
                             onChange={handleChange}
                             variant="scrollable"
                             scrollButtons
+                            allowScrollButtonsMobile
                             aria-label="visible arrows tabs example"
                             sx={{
                                 [`& .${tabsClasses.scrollButtons}`]: {
-                                    '&.Mui-disabled': { opacity: 0.3 },
+                                    '&.Mui-disabled': { opacity: 0.6 },
                                 },
                             }}
                         >
-                            <Tab icon={<Image src={image1} alt='shell' height={40} />}
+                            <Tab icon={<Image src={image1} alt='shell' height={38} />}
                                 sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Strategy" value='1' className={tabValue === '1' ? styles.tabs : null} />
-                            <Tab icon={<Image src={image2} alt='image17' height={40} />}
+                            <Tab icon={<Image src={image2} alt='image17' height={51} />}
                                 sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Tokenomics" value='2' className={tabValue === '2' ? styles.tabs : null} />
-                            <Tab icon={<Image src={image3} alt='image16' height={40} />}
+                            <Tab icon={<Image src={image3} alt='image16' height={57} />}
                                 sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Marketing" value='3' className={tabValue === '3' ? styles.tabs : null} />
-                            <Tab icon={<Image src={image4} alt='image18' height={40} />}
+                            <Tab icon={<Image src={image4} alt='image18' height={64} />}
                                 sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Development" value='4' className={tabValue === '4' ? styles.tabs : null} />
-                            <Tab icon={<Image src={image5} alt='image19' height={40} />}
+                            <Tab icon={<Image src={image5} alt='image19' height={57} />}
                                 sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Go to Market" value='5' className={tabValue === '5' ? styles.tabs : null} />
-                            <Tab icon={<Image src={image6} alt='image20' height={40} />}
+                            <Tab icon={<Image src={image6} alt='image20' height={57} />}
                                 sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Legal" value='6' className={tabValue === '6' ? styles.tabs : null} />
                         </TabList>
                         <div className='tab-panel'>
