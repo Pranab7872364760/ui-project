@@ -94,7 +94,7 @@ function Expertise() {
                                 <Image
                                     src={image5}
                                     alt='shell'
-                                    // height={57}
+                                    height={57}
                                 />
                             </span>
                             <h3 className='text-center expert-text'>Go to Market</h3>
@@ -107,7 +107,7 @@ function Expertise() {
                                 <Image
                                     src={image6}
                                     alt='shell'
-                                    // height={57}
+                                    height={57}
                                 />
                             </span>
                             <h3 className='text-center expert-text'>Legal</h3>
@@ -164,13 +164,13 @@ function Expertise() {
                                 },
                             }}
                         >
-                            <Tab icon={<Image src={image1} alt='shell' height={38} />}
+                            <Tab icon={<Image src={image1} alt='shell' />}
                                 sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Strategy" value='1' className={tabValue === '1' ? styles.tabs : null} />
-                            <Tab icon={<Image src={image2} alt='image17' height={51} />}
+                            <Tab icon={<Image src={image2} alt='image17' />}
                                 sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Tokenomics" value='2' className={tabValue === '2' ? styles.tabs : null} />
-                            <Tab icon={<Image src={image3} alt='image16' height={57} />}
+                            <Tab icon={<Image src={image3} alt='image16' />}
                                 sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Marketing" value='3' className={tabValue === '3' ? styles.tabs : null} />
-                            <Tab icon={<Image src={image4} alt='image18' height={64} />}
+                            <Tab icon={<Image src={image4} alt='image18' />}
                                 sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Development" value='4' className={tabValue === '4' ? styles.tabs : null} />
                             <Tab icon={<Image src={image5} alt='image19' height={57} />}
                                 sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Go to Market" value='5' className={tabValue === '5' ? styles.tabs : null} />
