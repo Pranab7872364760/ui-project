@@ -165,17 +165,17 @@ function Expertise() {
                             }}
                         >
                             <Tab icon={<Image src={image1} alt='shell' height={40} />}
-                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Strategy" value='1' className={tabValue === '1' ? styles.tabs : ''} />
+                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Strategy" value='1' className={tabValue === '1' ? styles.tabs : null} />
                             <Tab icon={<Image src={image2} alt='image17' height={40} />}
-                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Tokenomics" value='2' className={tabValue === '2' ? styles.tabs : ''} />
+                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Tokenomics" value='2' className={tabValue === '2' ? styles.tabs : null} />
                             <Tab icon={<Image src={image3} alt='image16' height={40} />}
-                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Marketing" value='3' className={tabValue === '3' ? styles.tabs : ''} />
+                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Marketing" value='3' className={tabValue === '3' ? styles.tabs : null} />
                             <Tab icon={<Image src={image4} alt='image18' height={40} />}
-                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Development" value='4' className={tabValue === '4' ? styles.tabs : ''} />
+                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Development" value='4' className={tabValue === '4' ? styles.tabs : null} />
                             <Tab icon={<Image src={image5} alt='image19' height={40} />}
-                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Go to Market" value='5' className={tabValue === '5' ? styles.tabs : ''} />
+                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Go to Market" value='5' className={tabValue === '5' ? styles.tabs : null} />
                             <Tab icon={<Image src={image6} alt='image20' height={40} />}
-                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Legal" value='6' className={tabValue === '6' ? styles.tabs : ''} />
+                                sx={{ color: "black", textTransform: 'none', fontFamily: 'urbanist', fontSize: 15 }} label="Legal" value='6' className={tabValue === '6' ? styles.tabs : null} />
                         </TabList>
                         <div className='tab-panel'>
                             <TabPanel value="1"><h3 className='expert-text mt-5'>ABANDON ALL HOPE YE WHO ENTER HERE is scrawled in blood red lettering
