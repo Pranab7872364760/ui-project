@@ -25,8 +25,8 @@ function ScoutsProgram() {
                                         alt="Moshed"
                                     />
                                 </p>
-                                <h1 className='text-center mb-5 defi-text scout-text' style={{ fontSize: '10ch' }}>Scouts Program</h1>
-                                <li className='scout-text' style={{ fontSize: '3ch', display:'inline-block' }}>
+                                <h1 className='text-center mb-5 defi-text scout-text' style={{fontSize:60}}>Scouts Program</h1>
+                                <li className='scouts-text' style={{ fontSize: '3ch', display:'inline-block' }}>
                                     The Scouts Program was created to enable exceptional individuals to
                                     become part of the Information Token community without holding an
                                     information token for ongoing contributions to the DAO
@@ -34,16 +34,16 @@ function ScoutsProgram() {
                                 <br />
                                 <h2 className='expert-text'>Benefits</h2>
                                 <ul className='program-text' style={{ fontSize: '3ch' }}>
-                                    <li className='scout-text'>
+                                    <li className='scouts-text'>
                                         Full access to our private discord and community membership,including alpha and access to pooled trading or investment opportunities
                                     </li>
-                                    <li className='scout-text'>
+                                    <li className='scouts-text'>
                                         Allocation in seed investments
                                     </li>
-                                    <li className='scout-text'>
+                                    <li className='scouts-text'>
                                         Compensation from revenue-producing projects
                                     </li>
-                                    <li className='scout-text'>
+                                    <li className='scouts-text'>
                                         Current scouts contribute in many areas, including deal flow.consulting expertise, development. fund management. marketing, and other areas.
                                     </li>
                                 </ul>
@@ -60,16 +60,16 @@ function ScoutsProgram() {
                     <Image
                         src={moshed3}
                         alt="group"
-                        width={250}
-                        height={400}
+                        // width={250}
+                        // height={400}
                     />
                 </span>
                 <span className='program-img'>
                     <Image
                         src={Program2}
                         alt="program"
-                        width={250}
-                        height={400}
+                        // width={250}
+                        // height={400}
                     />
                 </span>
                 <span className='topography-img'>

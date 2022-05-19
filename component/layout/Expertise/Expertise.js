@@ -32,7 +32,7 @@ function Expertise() {
     return (
         <div id='expertise' className={styles.head}>
             <div className={styles.text}>
-                <h1 style={{ fontSize: '10ch', textAlign: 'center' }} className="defi-text">DeFi & NFT Expertise</h1>
+                <h1 style={{ fontSize: 60, textAlign: 'center' }} className="defi-text">DeFi & NFT Expertise</h1>
             </div>
             <div id="exTab1" className="container mt-5">
                 <ul className="tab-list">

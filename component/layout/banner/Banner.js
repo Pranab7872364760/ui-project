@@ -25,14 +25,14 @@ export default function Home() {
                                         // height={100}
                                     />
                                 </p>
-                                <h6 className="banner-text info-text">How much is information worth to you?</h6>
+                                <h6 className="banner-text info-text" style={{fontSize:16}}>How much is information worth to you?</h6>
                                 <p className="text-center banner-image">
                                     <Image src={LOGO}
                                         alt="logo"
                                     />
                                 </p>
-                                <h4 className="text-center logo-text">100 Tokens. 1 Research & Investment DAO.</h4><br className="remove-inmobile" />
-                                <h4 className="text-center logo-text">We invest in early-stage web3 protocols <br className="remove-inmobile"/> within the DeFi & NFT ecosystems. </h4>
+                                <h4 className="text-center logo-text" style={{fontSize:20}}>100 Tokens. 1 Research & Investment DAO.</h4><br className="remove-inmobile" />
+                                <h4 className="text-center logo-text" style={{fontSize:20}}>We invest in early-stage web3 protocols <br className="remove-inmobile"/> within the DeFi & NFT ecosystems. </h4>
                                 <p className="imgWrap">
                                     <span className="pull-left woman-img">
                                         <Image

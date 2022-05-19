@@ -53,7 +53,7 @@
 
 .flowerPrayWoman-img {
     padding-right: 80px;
-    padding-top: 121px;
+    padding-top: 149px;
 }
 
 .group35-image {
@@ -75,7 +75,7 @@
     margin: 0px auto;
     padding-top: 0px;
     padding-bottom: 253px;
-    width: 796px;
+    width: 896px;
 }
 
 .banner-image img {
@@ -118,9 +118,9 @@
 }
 
 .service-content {
-    padding-top: 30px;
-    background-image: url('../assets/serviceimg.png');
-    padding-bottom: 60px;
+    padding-top: 100px;
+    background-image: url('../assets/feedback.png');
+    padding-bottom: 100px;
     background-size: cover;
 
 }
@@ -156,7 +156,7 @@
 
 .programwrap {
     margin: 0px auto;
-    padding-top: 17px;
+    padding-top: 100px;
     padding-bottom: 80px;
     width: 447px;
 }
@@ -251,6 +251,11 @@
 
 .scout-text {
     font-family: 'urbanist', sans-serif;
+    font-weight: 800 !important;
+}
+
+.scouts-text{
+    font-family: 'urbanist', sans-serif;
     font-weight: 500 !important;
 }
 
@@ -267,7 +272,6 @@
 .contact-us{
     font-family: 'sora', sans-serif;
     font-weight: 500 !important;
-    font-size: 'bold';
 }
 
 
@@ -299,3 +303,33 @@
     background-color: black;
     color: white !important;
 } */
+
+.image8{
+    position: absolute;
+    top: -61px !important;
+    right: 24px !important;
+}
+
+.position-inmobile img{
+   left: 14px !important;
+   top: 6px !important;
+}
+
+.bust-img{
+    position: absolute;
+    left: 0px;
+    top: -161px;
+}
+
+.service-body{
+    margin: 0px auto;
+    padding-top: 0px;
+    padding-bottom: 153px;
+    width: 890px;
+}
+
+.bust1-img{
+    position: absolute;
+    right: 19px;
+    top: -82px;
+}

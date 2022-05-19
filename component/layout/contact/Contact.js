@@ -65,13 +65,13 @@ function Contact() {
                 <div className="row">
                     <div className="col-sm-12">
                         <div className="contactwrap">
-                            <h3 style={{ paddingBottom: '10px' }} className="contact-us" >Contact Us</h3>
+                            <h3 style={{ paddingBottom: '20px', fontSize:20, paddingTop:'45px' }} className="contact-us" >Contact Us</h3>
                             <form onSubmit={handleSubmit} style={{ height: '100%' }}>
                                 <div className="mb-3">
-                                    <input type="name" name="name" className="form-control" style={{ border: 'solid', height: '50px', fontSize: '3ch' }} value={formValue.name} onChange={handleChange} placeholder="Your Name" required />
+                                    <input type="name" name="name" className="form-control" style={{ border: 'solid', height: '50px', fontSize: '3ch' }} value={formValue.name} onChange={handleChange} placeholder="Name" required />
                                 </div>
                                 <div className="mb-3">
-                                    <input type="email" name="email" className="form-control" style={{ border: 'solid', height: '50px', fontSize: '3ch' }} value={formValue.email} onChange={handleChange} placeholder="Your Email" required />
+                                    <input type="email" name="email" className="form-control" style={{ border: 'solid', height: '50px', fontSize: '3ch' }} value={formValue.email} onChange={handleChange} placeholder="Email" required />
                                 </div>
                                 <div className="mb-3">
                                     <textarea className="form-control" style={{ border: 'solid', height: '200px', fontSize: '3ch' }} name="message" id="message" value={formValue.message} onChange={handleChange} placeholder="Message" rows="5" required ></textarea>

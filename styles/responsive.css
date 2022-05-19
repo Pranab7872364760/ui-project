@@ -14,6 +14,33 @@
         margin-right: 10px;
     }
 
+    .service-content {
+        width: 100% !important;
+        padding-bottom: 0px;
+    }
+
+    .bust-img {
+        width: 30% !important;
+        padding-top: 250px !important;
+        left: 5px !important;
+    }
+
+    .bust1-img {
+        width: 15% !important;
+        padding-top: 154px !important;
+        right: -11px;
+    }
+
+    .image8 {
+        width: 14% !important;
+        padding-top: 150px !important;
+        right: 8px !important;
+    }
+
+    .service-body {
+        width: 83% !important;
+    }
+
     .contact-content {
         width: 100% !important;
         height: 115px !important;
@@ -246,6 +273,27 @@
 
     /*  .Services_text____l2G p{     font-size: 14px;
         line-height: 23px;} */
+
+    .service-content {
+        width: 100% !important;
+    }
+
+    .bust-img {
+        display: none;
+    }
+
+    .bust1-img {
+        display: none;
+    }
+
+    .image8 {
+        /* width: 30% !important; */
+        display: none;
+    }
+
+    .service-body {
+        width: 100% !important;
+    }
 
     .tab-panel {
         /* max-height: 100%; */
@@ -497,14 +545,14 @@
         width: 74px !important;
         height: auto;
         top: 318px;
-        left: 1px;
+        left: 0px;
     }
 
     .image9 {
         width: 74px !important;
         height: auto;
         top: 318px;
-        right: 1px;
+        right: 0px;
     }
 
     .imgWrap {
@@ -530,13 +578,18 @@
 
 @media only screen and (min-width: 1024px) {
 
+    .image8 {
+        top: -61px !important;
+        right: 24px !important;
+    }
+
     .tabfor-mobile {
         display: none;
     }
 
     .contact-content {
         width: 100% !important;
-        height: 172px !important;
+        height: 211px !important;
         margin-top: 21px;
     }
 
@@ -578,14 +631,14 @@
     .image9 {
         position: absolute;
         top: 327px;
-        right: 68px;
+        right: 160px;
     }
 
 
     .image7 {
         position: absolute;
         top: 327px;
-        left: 68px;
+        right: 160px;
     }
 
     .group-image {

@@ -24,8 +24,8 @@ export default function Layout({ Children }) {
                                 <Image
                                     src={Group36}
                                     alt="group36"
-                                    height={120}
-                                    width={120}
+                                    // height={120}
+                                    // width={120}
                                 />
                             </span>
                         </div>
