@@ -589,7 +589,7 @@
 
     .contact-content {
         width: 100% !important;
-        height: 211px !important;
+        height: 255px !important;
         margin-top: 21px;
     }
 
@@ -619,8 +619,8 @@
 
     .topography-img {
         position: absolute;
-        bottom: -27px;
-        left: 82px !important;
+        bottom: -33px;
+        left: 144px !important;
     }
 
     /* .topography-img {
@@ -631,7 +631,7 @@
     .image9 {
         position: absolute;
         top: 327px;
-        right: 160px;
+        right: 325px;
     }
 
 

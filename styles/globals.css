@@ -203,7 +203,7 @@
 .image7 {
     position: absolute;
     top: 327px;
-    left: 145px;
+    left: 325px;
 }
 
 .image9 {
@@ -284,10 +284,10 @@
 } */
 .contact-content {
     background-image: url('../assets/Group29.png');
-    height: 50%;
-    width: 100%;
+    height: 50% !important;
+    width: 100% !important;
     background-size: cover;
-    margin-top: 19px;
+    margin-top: 19px !important;
     background-position: center center;
 }
 
