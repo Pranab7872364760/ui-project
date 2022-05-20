@@ -46,7 +46,7 @@ return (
             </div>
         </nav >
         <div className={styles.sidenav} id='mySidenav'>
-            <a className={styles.closebtn} onClick={closeNav}><button style={{borderRadius:'15px', backgroundColor:'#818181'}}>&times;</button></a>
+            <a className={styles.closebtn} onClick={closeNav}>&times;</a>
                 {/* <li className="nav-item">
                     <a className="nav-link text-white" href="#banner">Banner</a>
                 </li> */}

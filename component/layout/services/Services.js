@@ -70,7 +70,7 @@ function Services() {
                             <div className='col-sm-4'>
                                 {/* <div className='service-body'> */}
                                 <span className='text-white'><h2 className='defi-text' style={{fontSize:24}}>Ventures</h2></span><br/>
-                                <span className={styles.text}><p style={{ fontSize: 18 }}>
+                                <span className={styles.text}><p style={{ fontSize: 18, marginBottom:'20px' }}>
                                     We actively invest in early-stage projects,
                                     looking for talented builders in the Defi and NFT spaces
                                 </p></span>
@@ -79,7 +79,7 @@ function Services() {
                             <div className='col-sm-4'>
                                 {/* <div className='service-body'> */}
                                 <span className='text-white'><h2 className='defi-text' style={{fontSize:24}}>Consultancy</h2></span><br/>
-                                <span className={styles.text}><p style={{ fontSize: 18 }}>
+                                <span className={styles.text}><p style={{ fontSize: 18, marginBottom:'20px' }}>
                                     We advise protocols on strategy. marketing. policy, growth,
                                     and user education. Each partnership is unique,
                                     with a select working group created to provide targeted research and recommendations.
