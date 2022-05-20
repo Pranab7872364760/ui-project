@@ -29,12 +29,12 @@
 
 .closebtn {
   position: absolute;
+  align-self: center;
   top: 0;
   right: 25px;
-  font-size: 100px;
+  font-size: 200px;
   margin-left: 50px;
   cursor: pointer;
-
 }
 
 @media screen and (max-width: 992px) {

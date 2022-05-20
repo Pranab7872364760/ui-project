@@ -46,7 +46,7 @@ return (
             </div>
         </nav >
         <div className={styles.sidenav} id='mySidenav'>
-            <a href="#" className={styles.closebtn} onClick={closeNav}>&times;</a>
+            <a className={styles.closebtn} onClick={closeNav}><button style={{borderRadius:'15px', backgroundColor:'#818181'}}>&times;</button></a>
                 {/* <li className="nav-item">
                     <a className="nav-link text-white" href="#banner">Banner</a>
                 </li> */}
@@ -60,7 +60,7 @@ return (
                     <a className="nav-link text-white" href="#services">Services</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link text-white" href="#scoutsprogram">Scouts Program</a>
+                    <a className="nav-link text-white" href="#scoutsprogram">Scouts</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link text-white" href="#contact">Contact</a>

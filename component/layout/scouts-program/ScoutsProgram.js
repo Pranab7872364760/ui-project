@@ -50,7 +50,7 @@ function ScoutsProgram() {
                                 <br />
                                 <h3 className='expert-text'>
                                     Scouts season 2 is now open for new applicants.Please 
-                                    <a href='#'> apply here.</a>
+                                    <a href='#' style={{color:'black', textDecoration:'none'}}> apply here.</a>
                                 </h3>
                             </div>
                         </div>
