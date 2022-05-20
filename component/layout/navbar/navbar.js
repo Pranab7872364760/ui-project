@@ -1,6 +1,7 @@
 
 import React from 'react';
 import styles from '../../../styles/Navbar.module.css';
+import CloseIcon from '@mui/icons-material/Close';
 
 
 
@@ -46,7 +47,7 @@ return (
             </div>
         </nav >
         <div className={styles.sidenav} id='mySidenav'>
-            <a className={styles.closebtn} onClick={closeNav}>&times;</a>
+            <a className={styles.closebtn} onClick={closeNav}><CloseIcon sx={{fontSize:30}}/></a>
                 {/* <li className="nav-item">
                     <a className="nav-link text-white" href="#banner">Banner</a>
                 </li> */}
