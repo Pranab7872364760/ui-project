@@ -30,7 +30,7 @@ function Contact() {
             .then((res) => {
 
             })
-            alert('Message has been Send successful')
+            alert('Message has been Send successfully')
             toast.success('Send mail successful',
             { position: toast.POSITION.TOP_RIGHT })
         console.log(data);

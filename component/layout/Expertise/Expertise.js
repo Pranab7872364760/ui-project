@@ -165,7 +165,8 @@ function Expertise() {
                                     width:'30px',
                                     height:'30px',
                                     alignSelf:'center',
-                                    margin:'10px'
+                                    margin:'10px',
+                                    borderRadius:'15px'
                                 },
                             }}
                         >

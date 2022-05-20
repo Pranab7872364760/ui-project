@@ -36,25 +36,26 @@
     }
 
     .bust-img {
-        width: 30% !important;
-        padding-top: 214px !important;
-        left: 5px !important;
+        width: 45% !important;
+        padding-top: 172px !important;
+        left: 18px !important;
     }
 
     .bust1-img {
-        width: 15% !important;
-        padding-top: 128px !important;
-        right: -11px;
+        width: 19% !important;
+        padding-top: 86px !important;
+        right: -23px;
     }
 
     .image8 {
-        width: 14% !important;
-        padding-top: 130px !important;
-        right: 8px !important;
+        width: 17% !important;
+        padding-top: 96px !important;
+        right: 34px !important;
+        ;
     }
 
     .service-body {
-        width: 83% !important;
+        width: 66% !important;
     }
 
 
@@ -764,9 +765,9 @@
         padding-top: 122px;
     }
 
-.flowerPrayWoman-img img{
-    width: 150px !important;
-}
+    .flowerPrayWoman-img img {
+        width: 150px !important;
+    }
 
     .image8 {
         top: -61px !important;
