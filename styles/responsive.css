@@ -1,3 +1,215 @@
+@media only screen and ( max-width: 1366px) {
+
+    .contact-content {
+        width: 100% !important;
+        height: 12% !important;
+        margin-top: 113px !important;
+    }
+
+    .image9 {
+        width: 100% !important;
+        top: 327px;
+        right: -5px;
+    }
+
+    .image7 {
+        width: 100% !important;
+        top: 327px;
+        left: -5px;
+    }
+
+    .group-image {
+        width: 27% !important;
+        height: auto !important;
+        left: -15px;
+    }
+    .telecop-image {
+        width: 25% !important;
+        height: auto !important;
+    }
+
+    
+    .service-content {
+        width: 100% !important;
+        padding-bottom: 0px;
+    }
+
+    .bust-img {
+        width: 30% !important;
+        padding-top: 214px !important;
+        left: 5px !important;
+    }
+
+    .bust1-img {
+        width: 15% !important;
+        padding-top: 128px !important;
+        right: -11px;
+    }
+
+    .image8 {
+        width: 14% !important;
+        padding-top: 130px !important;
+        right: 8px !important;
+    }
+
+    .service-body {
+        width: 83% !important;
+    }
+
+  
+
+    /* .programwrap {
+        width: 43% !important;
+        padding-bottom: 100px;
+    } */
+
+    .number-ing {
+        width: 56px !important;
+        height: auto !important;
+        bottom: -56px;
+        right: 10px;
+    }
+
+    .program-img {
+        width: 23% !important;
+        height: auto !important;
+        top: 295px !important;
+        right: 15px;
+    }
+
+    .Rectangle3-img img {
+        width: 100% !important;
+        height: 70px !important;
+        top: 76px !important;
+        left: -2px !important;
+    }
+
+    .Rectangle1-img img {
+        width: 100% !important;
+        height: 23px !important;
+    }
+
+    .Rectangle-img img {
+        width: 100% !important;
+        height: 30px !important;
+    }
+
+    .image7 {
+        width: 18% !important;
+        height: auto;
+        top: 434px;
+        left: 76px;
+    }
+
+    .image9 {
+        width: 18% !important;
+        height: auto;
+        top: 434px;
+        right: 76px;
+    }
+
+    .product-logo {
+        width: 102% !important;
+        margin: 0px auto !important;
+        text-align: center !important;
+
+    }
+
+    .product-logo .pImageWrap {
+        width: 100%;
+        display: block;
+        padding: 0px 5px 10px 5px;
+
+    }
+
+    .service-img {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+    }
+
+
+    .layout-img img {
+        width: 55px !important;
+    }
+
+    .layout-img {
+        bottom: -24px;
+    }
+
+    .layout-img img {
+        width: 55px !important;
+    }
+
+    .woman-img {
+        width: 150px !important;
+        height: auto !important;
+        padding-top: 155px !important;
+    }
+
+    .flowerPrayWoman-img {
+        width: 150px !important;
+        height: auto !important;
+    }
+
+    .group-image {
+        width: 32% !important;
+        height: auto !important;
+        left: -15px;
+    }
+
+    .image-content {
+        width: 30% !important;
+        height: auto !important;
+        bottom: -2%;
+    }
+
+    .group35-image {
+        width: 30% !important;
+        height: auto !important;
+    }
+
+    .bannerwrap {
+        width: 87% !important;
+        padding-bottom: 81px;
+    }
+
+    .imgWrap {
+        padding: 0px 20%;
+    }
+
+    
+    .number-img {
+        width: 7% !important;
+        height: auto !important;
+        bottom: -109px;
+        right: 0px;
+    }
+
+    .topography-img {
+        width: 12% !important;
+        height: auto !important;
+        bottom: -118px !important;
+        left: 30px !important;
+    }
+
+
+    .group-img {
+        width: 23% !important;
+        height: auto !important;
+        top: 295px;
+        left: 15px !important;
+    }
+
+    .contactwrap {
+        margin: 0px auto;
+        padding-top: 325px;
+        width: 506px;
+    }
+  
+}
+
+
 @media only screen and (max-width: 992px) {
     .navbar-toggler {
         padding: 0.25rem 0.75rem;
@@ -44,7 +256,7 @@
     .contact-content {
         width: 100% !important;
         height: 115px !important;
-        margin-top: 109px;
+        margin-top: 109px !important;
     }
 
 
@@ -57,13 +269,6 @@
         padding-bottom: 0px;
     }
 
-    /* .topography-img {
-        width: 56px !important;
-        height: auto !important;
-        bottom: -60px;
-        left: 10px;
-    } */
-
     .number-ing {
         width: 56px !important;
         height: auto !important;
@@ -71,12 +276,6 @@
         right: 10px;
     }
 
-    /* .product-logo .pImageWrap {
-        width: 83%;
-        display: block;
-        padding: 0px 5px 10px 5px;
-
-    } */
     .group-img {
         width: 23% !important;
         height: auto !important;
@@ -91,34 +290,12 @@
         right: 15px;
     }
 
-
-    /* .number-ing {
-        width: 38px !important;
-        height: auto !important;
-        bottom: -56px;
-        right: 0px;
-    } */
-
-    /* .Rectangle1-img {
-        width: 0px;
-        height: auto !important;
-        top: 120px;
-        left: -2px;
-    } */
-
     .Rectangle3-img img {
         width: 100% !important;
         height: 70px !important;
         top: 76px !important;
         left: -2px !important;
     }
-
-    /* .Rectangle-img {
-        width: 52px;
-        height: 100px;
-        top: 53px;
-        left: -2px;
-    } */
 
     .Rectangle1-img img {
         width: 100% !important;
@@ -252,6 +429,7 @@
         width: 100%;
         height: 200px;
         overflow: scroll;
+        margin-top: 43px !important;
     }
 
     .number-img {
@@ -296,11 +474,11 @@
     }
 
     .tab-panel {
-        /* max-height: 100%; */
         width: 100%;
         height: 200px;
         overflow: scroll;
         margin-left: 1px;
+        margin-top: 43px !important;
     }
 
     .tabfor-mobile {
@@ -310,7 +488,7 @@
     .contact-content {
         width: 100% !important;
         height: 60px !important;
-        margin-top: 96px;
+        margin-top: 96px !important;
     }
 
     /* .scout-text{
@@ -411,7 +589,7 @@
     .woman-img {
         width: 150px !important;
         height: auto !important;
-        padding-top: 25px;
+        padding-top: 25px !important;
     }
 
     .flowerPrayWoman-img {
@@ -576,7 +754,12 @@
 
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1366px) {
+
+    .flowerPrayWoman-img {
+        padding-right: 115px;
+        padding-top: 149px;
+    }
 
     .image8 {
         top: -61px !important;
@@ -589,12 +772,13 @@
 
     .contact-content {
         width: 100% !important;
-        height: 255px !important;
-        margin-top: 21px;
+        height: 16% !important;
+        margin-top: 21px !important;
     }
 
     .number-img {
         position: absolute;
+        width: 8% !important;
         bottom: -27px;
         right: 0px;
     }
@@ -607,20 +791,22 @@
 
     .group-img {
         position: absolute !important;
+        /* width: 100% !important; */
         top: 108px;
-        left: 8.9% !important;
+        left: 4.9% !important;
     }
 
     .program-img {
         position: absolute;
+        /* width: 27% !important; */
         top: 103px;
-        right: 8.9%;
+        right: 4.9%;
     }
 
     .topography-img {
         position: absolute;
         bottom: -33px;
-        left: 144px !important;
+        left: 55px !important;
     }
 
     /* .topography-img {
@@ -629,16 +815,16 @@
     left: 68px;
 } */
     .image9 {
-        position: absolute;
+        /* position: absolute; */
         top: 327px;
-        right: 325px;
+        right: 110px;
     }
 
 
     .image7 {
-        position: absolute;
+        /* position: absolute; */
         top: 327px;
-        right: 160px;
+        left: 110px;
     }
 
     .group-image {
@@ -646,4 +832,20 @@
         height: auto !important;
         left: -15px;
     }
+    .service-body {
+        width: 65% !important;
+    }
+
+    .image-content {
+        width: 26% !important;
+    }
+
+}
+
+@media only screen and ( min-width: 1024px) {
+
+    .tabfor-mobile {
+        display: none;
+    }
+
 }

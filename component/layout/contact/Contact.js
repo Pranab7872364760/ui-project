@@ -6,6 +6,8 @@ import styles from '../../../styles/Contact.module.css';
 import Infotoken from '../../../assets/INFOTOKEN.png';
 import { postForm } from '../../../pages/api/Api';
 import Group29 from '../../../assets/Group29.png';
+import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
 
 
 const initialValue = { name: '', email: '', message: '' }
@@ -28,6 +30,9 @@ function Contact() {
             .then((res) => {
 
             })
+            alert('Send successful')
+            toast.success('Send mail successful',
+            { position: toast.POSITION.TOP_RIGHT })
         console.log(data);
     };
 
@@ -65,7 +70,7 @@ function Contact() {
                 <div className="row">
                     <div className="col-sm-12">
                         <div className="contactwrap">
-                            <h3 style={{ paddingBottom: '20px', fontSize:20, paddingTop:'45px' }} className="contact-us" >Contact Us</h3>
+                            <h3 style={{ paddingBottom: '20px', fontSize: 20, paddingTop: '45px' }} className="contact-us" >Contact Us</h3>
                             <form onSubmit={handleSubmit} style={{ height: '100%' }}>
                                 <div className="mb-3">
                                     <input type="name" name="name" className="form-control" style={{ border: 'solid', height: '50px', fontSize: '3ch' }} value={formValue.name} onChange={handleChange} placeholder="Name" required />
@@ -76,7 +81,7 @@ function Contact() {
                                 <div className="mb-3">
                                     <textarea className="form-control" style={{ border: 'solid', height: '200px', fontSize: '3ch' }} name="message" id="message" value={formValue.message} onChange={handleChange} placeholder="Message" rows="5" required ></textarea>
                                 </div>
-                                <div className="mt-5">
+                                <div style={{ paddingTop: '60px' }}>
                                     <button type="submit" className="btn btn-dark" style={{ width: '100%', height: '50px', fontSize: '3ch' }}>Send</button>
                                 </div>
                             </form>
@@ -100,16 +105,16 @@ function Contact() {
                     <Image
                         src={image7}
                         alt='group'
-                        // width={320}
-                        // height={284}
+                    // width={320}
+                    // height={284}
                     />
                 </span>
                 <span className="image9">
                     <Image
                         src={image9}
                         alt="image9"
-                        // width={320}
-                        // height={284}
+                    // width={320}
+                    // height={284}
                     />
                 </span>
             </div>

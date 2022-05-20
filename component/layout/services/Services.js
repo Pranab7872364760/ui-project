@@ -69,7 +69,7 @@ function Services() {
                         <div className='service-body'>
                             <div className='col-sm-4'>
                                 {/* <div className='service-body'> */}
-                                <span className='text-white'><h2 className='defi-text' style={{fontSize:24}}>Ventures</h2></span>
+                                <span className='text-white'><h2 className='defi-text' style={{fontSize:24}}>Ventures</h2></span><br/>
                                 <span className={styles.text}><p style={{ fontSize: 18 }}>
                                     We actively invest in early-stage projects,
                                     looking for talented builders in the Defi and NFT spaces
@@ -78,7 +78,7 @@ function Services() {
                             </div>
                             <div className='col-sm-4'>
                                 {/* <div className='service-body'> */}
-                                <span className='text-white'><h2 className='defi-text' style={{fontSize:24}}>Consultancy</h2></span>
+                                <span className='text-white'><h2 className='defi-text' style={{fontSize:24}}>Consultancy</h2></span><br/>
                                 <span className={styles.text}><p style={{ fontSize: 18 }}>
                                     We advise protocols on strategy. marketing. policy, growth,
                                     and user education. Each partnership is unique,
@@ -88,7 +88,7 @@ function Services() {
                             </div>
                             <div className='col-sm-4'>
                                 {/* <div className='service-body'> */}
-                                <span className='text-white'><h2 className='defi-text' style={{fontSize:24}}>Labs</h2></span>
+                                <span className='text-white'><h2 className='defi-text' style={{fontSize:24}}>Labs</h2></span><br/>
                                 <span className={styles.text}><p style={{ fontSize: 18 }}>
                                     We are actively building and focused on experimental ideas.
                                     By using our knowledge of DeFi and NFTS to move fast and ship,
