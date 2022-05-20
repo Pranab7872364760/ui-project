@@ -254,7 +254,7 @@
     font-weight: 800 !important;
 }
 
-.scouts-text{
+.scouts-text {
     font-family: 'urbanist', sans-serif;
     font-weight: 500 !important;
 }
@@ -269,7 +269,7 @@
     font-weight: 400 !important;
 }
 
-.contact-us{
+.contact-us {
     font-family: 'sora', sans-serif;
     font-weight: 500 !important;
 }
@@ -305,32 +305,42 @@
     color: white !important;
 } */
 
-.image8{
+.image8 {
     position: absolute;
     top: -61px !important;
     right: 24px !important;
 }
 
-.position-inmobile img{
-   left: 14px !important;
-   top: 6px !important;
+.position-inmobile img {
+    left: 14px !important;
+    top: 6px !important;
 }
 
-.bust-img{
+.bust-img {
     position: absolute;
     left: 0px;
     top: -161px;
 }
 
-.service-body{
+.service-body {
     margin: 0px auto;
     padding-top: 0px;
     padding-bottom: 153px;
     width: 890px;
 }
 
-.bust1-img{
+.bust1-img {
     position: absolute;
     right: 19px;
     top: -82px;
 }
+
+/* Button style - 
+width: 30px;
+    height: 30px;
+    align-self: center;
+    background-color: #C0C0C0;
+    border-radius: 15px;
+
+Scroller section margin:
+margin: 0px 10px 0px 10px; */

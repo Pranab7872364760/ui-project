@@ -130,31 +130,27 @@
     }
 
 
-    .layout-img img {
-        width: 55px !important;
-    }
-
     .layout-img {
         bottom: -24px;
     }
 
     .layout-img img {
-        width: 55px !important;
+        width: 95px !important;
     }
 
     .woman-img {
-        width: 150px !important;
+        width: 193px !important;
         height: auto !important;
-        padding-top: 155px !important;
+        padding-top: 158px !important;
     }
 
     .flowerPrayWoman-img {
-        width: 150px !important;
+        width: 193px !important;
         height: auto !important;
     }
 
     .group-image {
-        width: 32% !important;
+        width: 27% !important;
         height: auto !important;
         left: -15px;
     }
@@ -191,7 +187,7 @@
         width: 12% !important;
         height: auto !important;
         bottom: -118px !important;
-        left: 30px !important;
+        left: 54px !important;
     }
 
 
@@ -429,7 +425,7 @@
     .tab-panel {
         width: 100%;
         height: 200px;
-        overflow: scroll;
+        /* overflow: scroll; */
         margin-top: 43px !important;
     }
 
@@ -765,8 +761,12 @@
 
     .flowerPrayWoman-img {
         padding-right: 115px;
-        padding-top: 149px;
+        padding-top: 122px;
     }
+
+.flowerPrayWoman-img img{
+    width: 150px !important;
+}
 
     .image8 {
         top: -61px !important;

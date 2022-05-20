@@ -30,7 +30,7 @@ function Contact() {
             .then((res) => {
 
             })
-            alert('Send successful')
+            alert('Message has been Send successful')
             toast.success('Send mail successful',
             { position: toast.POSITION.TOP_RIGHT })
         console.log(data);
@@ -92,11 +92,10 @@ function Contact() {
                                 />
                             </p>
                             <p className="text-center">
-                                <a className="text-wrap">Opensea</a>
-                                <a className="text-wrap">Discord</a>
-                                <a className="text-wrap">Twitter</a>
-                                <a className="text-wrap">Medium</a>
-                                <a className="text-wrap">Contact</a>
+                                <a href="https://opensea.io/collection/information-token" className="text-wrap">Opensea</a>
+                                <a href="https://discord.gg/nsMSakxQ" className="text-wrap">Discord</a>
+                                <a href="https://twitter.com/InfoTokenDAO" className="text-wrap">Twitter</a>
+                                <a href="https://medium.com/@informationtokendao" className="text-wrap">Medium</a>
                             </p>
                         </div>
                     </div>

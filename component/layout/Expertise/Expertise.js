@@ -161,6 +161,11 @@ function Expertise() {
                             sx={{
                                 [`& .${tabsClasses.scrollButtons}`]: {
                                     '&.Mui-disabled': { opacity: 0.6 },
+                                    backgroundColor:'#C0C0C0',
+                                    width:'30px',
+                                    height:'30px',
+                                    alignSelf:'center',
+                                    margin:'10px'
                                 },
                             }}
                         >
