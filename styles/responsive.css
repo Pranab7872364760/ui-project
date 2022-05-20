@@ -1,8 +1,8 @@
-@media only screen and ( max-width: 1366px) {
+@media only screen and (max-width: 1360px) {
 
     .contact-content {
         width: 100% !important;
-        height: 12% !important;
+        height: 20% !important;
         margin-top: 113px !important;
     }
 
@@ -23,12 +23,13 @@
         height: auto !important;
         left: -15px;
     }
+
     .telecop-image {
         width: 25% !important;
         height: auto !important;
     }
 
-    
+
     .service-content {
         width: 100% !important;
         padding-bottom: 0px;
@@ -56,7 +57,7 @@
         width: 83% !important;
     }
 
-  
+
 
     /* .programwrap {
         width: 43% !important;
@@ -178,7 +179,7 @@
         padding: 0px 20%;
     }
 
-    
+
     .number-img {
         width: 7% !important;
         height: auto !important;
@@ -206,7 +207,7 @@
         padding-top: 325px;
         width: 506px;
     }
-  
+
 }
 
 
@@ -756,6 +757,12 @@
 
 @media only screen and (min-width: 1366px) {
 
+    .contactwrap {
+        margin: 0px auto;
+        padding-top: 425px;
+        width: 32% !important;
+    }
+
     .flowerPrayWoman-img {
         padding-right: 115px;
         padding-top: 149px;
@@ -772,14 +779,14 @@
 
     .contact-content {
         width: 100% !important;
-        height: 16% !important;
-        margin-top: 21px !important;
+        height: 24% !important;
+        margin-top: 122px !important;
     }
 
     .number-img {
         position: absolute;
         width: 8% !important;
-        bottom: -27px;
+        bottom: -116px;
         right: 0px;
     }
 
@@ -799,14 +806,14 @@
     .program-img {
         position: absolute;
         /* width: 27% !important; */
-        top: 103px;
-        right: 4.9%;
+        top: 103px !important;
+        right: 4.9% !important;
     }
 
     .topography-img {
         position: absolute;
-        bottom: -33px;
-        left: 55px !important;
+        bottom: -132px !important;
+        left: 34px !important;
     }
 
     /* .topography-img {
@@ -816,15 +823,15 @@
 } */
     .image9 {
         /* position: absolute; */
-        top: 327px;
-        right: 110px;
+        top: 470px;
+        right: 150px;
     }
 
 
     .image7 {
         /* position: absolute; */
-        top: 327px;
-        left: 110px;
+        top: 470px;
+        left: 150px;
     }
 
     .group-image {
@@ -832,6 +839,7 @@
         height: auto !important;
         left: -15px;
     }
+
     .service-body {
         width: 65% !important;
     }
@@ -842,7 +850,7 @@
 
 }
 
-@media only screen and ( min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 
     .tabfor-mobile {
         display: none;

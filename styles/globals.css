@@ -190,9 +190,9 @@
     left: 0px;
 }
 
-.contact-content {
+/* .contact-content {
     position: absolute;
-}
+} */
 
 .contactwrap {
     margin: 0px auto;
@@ -283,6 +283,7 @@
   margin: 20px 20px;
 } */
 .contact-content {
+    position: absolute;
     background-image: url('../assets/Group29.png');
     height: 50% !important;
     width: 100% !important;
